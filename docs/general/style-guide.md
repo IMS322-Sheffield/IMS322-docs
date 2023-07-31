@@ -54,11 +54,11 @@ Not this:
 ### Do not use spaces around equals signs
 This:
 ```html
-<img src="headshot.jpg" alt="My Headshot">
+<img src="headshot.jpg" alt="My Headshot" />
 ```
 Not this:
 ```html
-<img src = "headshot.jpg" alt =" My Headshot">
+<img src = "headshot.jpg" alt =" My Headshot" />
 ```
 
 
@@ -110,7 +110,7 @@ The template in Replit will automatically create these for you, but it can be ve
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>IMS322 Template</title>
   <link href="ims322-style.css" rel="stylesheet" type="text/css" />
   <link href="style.css" rel="stylesheet" type="text/css" />
@@ -138,7 +138,7 @@ You may see `<script>` tags located within the `<body>` when following tutorials
 ```html
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>IMS322 Template</title>
   <link href="ims322-style.css" rel="stylesheet" type="text/css" />
   <link href="style.css" rel="stylesheet" type="text/css" />
