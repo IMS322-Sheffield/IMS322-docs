@@ -42,6 +42,11 @@ When considering image sizes, this means that you consider how much of the windo
 
 When downloading images from [Unsplash](https://unsplash.com), you are usually given the choice of a small, medium, large, or original resolution. Depending on your specific layout, small or medium will likely be the best choice. If you do not 
 
+<img src="images/building-large.jpg" width="50%">
+<img src="images/building-small.jpg" width="50%">
+
+
+
 ---
 ## HTML
 Compiled from [W3 Schools](https://www.w3schools.com/html/html5_syntax.asp) and [MDN Web Docs](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/HTML).
