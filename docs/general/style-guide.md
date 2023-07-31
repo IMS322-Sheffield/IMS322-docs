@@ -9,28 +9,33 @@ nav_order: 1
 
 This is an IMS322 Coding Style guide.
 
+---
 ## General
+
+The stuff here applies to HTML, CSS, and JavaScript.
+
 
 ### Use lowercase file names
 `index.html`, NOT `Index.html` or `INDEX.html`.
 
-## Default filenames
+
+### Default filenames
 Use the following default filenames in your projects:
 - `index.html`
 - `style.css`
 - `script.js`
 If you need more files, is it OK to use other descriptive names like `footer-style.css`. For instance, each Replit template in this class will include a second `ims322-style.css` file in addition to the standard `style.css` file.
 
-## Image names
+
+### Image names
 Rename you image files for clarity and simplicity whenever necessary. For example, `scuba.jpg`, NOT `neom-9E9NsEiUGxg-unsplash.jpg` or `IMG_1234.JPG`.
 
-## Image sizes
 
+### Image sizes
 
-
+---
 ## HTML
 Compiled from [W3 Schools](https://www.w3schools.com/html/html5_syntax.asp) and [MDN Web Docs](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/HTML).
-
 
 
 ### Use lowercase element names
@@ -99,6 +104,7 @@ Not this:
 </body>
 ```
 
+
 ### Your document should always include one complete html, head, title, and body element
 The template in Replit will automatically create these for you, but it can be very easy when copy-pasting to accidentally duplicate or break these elements.
 ```
@@ -121,10 +127,14 @@ The template in Replit will automatically create these for you, but it can be ve
 </html>
 ```
 
+
 ### Naming classes and IDs
 Class and ID attributes should be written using the "kebab-case" convention in wh
 
+---
 ## JavaScript
+
+
 
 ### Loading JavaScript in HTML
 You may see `<script>` tags located within the `<body>` when following tutorials or example online. However, for this class, we will always place our `<script>` tags in the `<head>` with the added `defer` keyword.
