@@ -1,7 +1,9 @@
 title: IMS322 Docs
 description: Stuff for IMS322
 theme: just-the-docs
-color_scheme: dark
+# color_scheme: dark
+
+$link-color: $blue-100;
 
 url: https://sheffield-miami-fall2023.github.io/IMS322-docs/
 
