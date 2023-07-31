@@ -12,12 +12,10 @@ This is an IMS322 Coding Style guide.
 ---
 ## General
 
-The stuff here applies to HTML, CSS, and JavaScript.
-
-### Lowercase file names
+### Lowercase File Names
 As in `index.html`, NOT `Index.html` or `INDEX.html`.
 
-### Default filenames
+### Default Filenames
 Use the following default filenames in your projects:
 - `index.html`
 - `style.css`
@@ -25,10 +23,24 @@ Use the following default filenames in your projects:
 
 If you need more files (e.g. multiple CSS files), is it OK to use other unique and descriptive names like `footer-style.css`. Indeed, each Replit template in this class will include an `ims322-style.css` file in addition to the standard `style.css` file. You can read more about what the  `ims322-style.css` is for [here](css-framework).
 
-### Image names
+### Image Names
 Rename you image files for clarity and simplicity whenever necessary. For example, `dog.jpg` is much easier to type and identify than `neom-9E9NsEiUGxg-unsplash.jpg` or `IMG_1234.JPG`.
 
-### Image sizes
+### Image Sizes
+Ensure that all image files used in your projects are reasonably sized according to their intended use.
+
+We will be using the following screen width targets for all projects (based on [MDN Web Docs recommendations](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/CSS#mobile-first_media_queries)):
+- 480px (mobile)
+- 800px (tablet, narrow laptop/desktop windows)
+- 1100px (wide laptop/desktop windows)
+
+These sizes are already pre-configured for you in the `ims322-style.css` file media queries.
+
+Modern high-DPI (dots per inch) displays actually scale content. For example, a website with a width of 800px on a 13" MacBook Air actually fills 1600px of the display. It uses 4 pixels (2 in width, 2 in height) to render every 1 pixel of content. 
+
+When considering image sizes, this means that you consider how much of the window width your image files will use, and then double that. For example, an image that will only take up half of the window at the most (e.g. one side of a two-column layout, 550px of window space) does not need to be any wider than 1100px.
+
+When downloading images from [Unsplash](https://unsplash.com), you are usually given the choice of a small, medium, large, or original resolution. Depending on your specific layout, small or medium will likely be the best choice. If you do not 
 
 ---
 ## HTML
