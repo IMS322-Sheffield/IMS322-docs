@@ -43,11 +43,9 @@ When considering image sizes, this means that you consider how much of the windo
 When downloading images from [Unsplash](https://unsplash.com), you are usually given the choice of a small, medium, large, or original resolution. Depending on your specific layout, small or medium will likely be the best choice. If you do not 
 
 <div style="display: flex; gap: 1ch;">
-	<div><img src="images/building-small.jpg"></div>
-	<div><img src="images/building-large.jpg"></div>
+	<div style="flex: 1;"><img src="images/building-small.jpg" style="width: 100%"></div>
+	<div style="flex: 1;"><img src="images/building-large.jpg" style="width: 100%"></div>
 </div>
-
-
 
 ---
 ## HTML
