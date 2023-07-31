@@ -54,11 +54,11 @@ Not this:
 ### Do not use spaces around equals signs
 This:
 ```html
-<img src="headshot.jpg" alt="My Headshot" />
+<img src="headshot.jpg" alt="Headshot">
 ```
 Not this:
 ```html
-<img src = "headshot.jpg" alt =" My Headshot" />
+<img src = "headshot.jpg" alt = "Headshot">
 ```
 
 
