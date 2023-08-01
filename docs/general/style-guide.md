@@ -7,7 +7,7 @@ nav_order: 1
 
 # IMS322 Style Guide
 
-This is an IMS322 Coding Style guide.
+A Coding Style Guide contains a set of rules and guidelines for writing code. While some code errors are absolute (e.g. misspelling the name of a variable or function), some other things like blank space and capitalization can be more forgiving.
 
 ---
 ## General
