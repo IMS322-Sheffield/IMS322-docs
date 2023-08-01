@@ -5,9 +5,16 @@ parent: General
 nav_order: 2
 ---
 
-# IMS322 CSS Framework
+# IMS322 CSS Mini-Framework
 
-For this class, every assignment template will contain an `ims322-style.css` file that predefines a small collection of style characteristics to help you get started. These are by no means meant to cover ever style or layout
+A CSS framework usually comprises several stylesheets with prepared styles for layouts, inputs, fonts, navbars, and more. Examples of CSS frameworks include:
+- [Bootstrap](https://getbootstrap.com) (extensive toolkit that also includes prebuilt interactive components and JavaScript functionality)
+- [Tailwind CSS](https://tailwindcss.com)
+- [Bulma](https://bulma.io)
+
+While CSS frameworks can save time and effort, they also tend to heavily influence the overall aesthetic and form of sites and projects. Additionally, it is still beneficial to have a good grasp on CSS fundamentals before adopting a framework.
+
+For this class, I have created a very basic and minimal IMS322 CSS mini-framework consisting of a single stylesheet. Every assignment template will contain an `ims322-style.css` file that predefines a small collection of style characteristics to help you get started. These are by no means meant to cover ever style or layout, but they are intended to address many of the most common needs and pitfalls.
 
 ## IMS322 Body Element
 
