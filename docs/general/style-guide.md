@@ -5,7 +5,7 @@ parent: General
 nav_order: 1
 ---
 
-# Style Guide
+# IMS322 Style Guide
 
 This is an IMS322 Coding Style guide.
 
@@ -42,9 +42,11 @@ When considering image sizes, this means that you consider how much of the windo
 
 When downloading images from [Unsplash](https://unsplash.com), you are usually given the choice of a small, medium, large, or original resolution. Depending on your specific layout, small or medium will likely be the best choice. If you do not 
 
-<div style="display: flex; gap: 1ch;">
-	<div style="flex: 1;"><img src="images/building-small.jpg" style="width: 100%"></div>
-	<div style="flex: 1;"><img src="images/building-large.jpg" style="width: 100%"></div>
+Even though the two images below look identical, the one on the left was the "small" size option on Unsplash, while the one on the right was the "large" option. The small version is only 640X490 pixels and 223KB, while the large one is 2400X3600 and 2MB!
+
+<div style="display: flex; justify-content: space-around;">
+	<div style="width: 85%"><img src="images/building-small.jpg" style="width: 100%"></div>
+	<div style="width: 85%"><img src="images/building-large.jpg" style="width: 100%"></div>
 </div>
 
 ---
