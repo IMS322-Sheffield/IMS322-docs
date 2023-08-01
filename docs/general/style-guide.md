@@ -148,14 +148,14 @@ Class and ID attributes should be written using the "kebab-case" convention in w
 Use concise, searchable, and meaningful names. Only use common and easy to remember abbreviations when a name becomes excessively long. A class name called `main-red-text` is much easier to find and recall than `mn-rd-txt`. Similarly, the ID `answer1-button` is much easier to find and recall than `button1`.
 
 ### Semantic HTML
-A [semantic HTML](https://www.w3schools.com/html/html5_semantic_elements.asp) element describes its meaning, providing context for the developer, browser, and user. It also improves accessibility for people that use screen readers. Some examples of common semantic HTML elements are:
-- `<footer>`
+A [semantic HTML](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html) element describes its meaning, providing context for the developer, browser, and user. It also improves accessibility for people that use screen readers. Some examples of common semantic HTML elements are:
+- `<h1>`, `<h2>`, `<h3>`, etc.
 - `<header>`
 - `<main>`
 - `<nav>`
 - `<section>`
 
-Try to use the most appropriate [HTML tags](https://www.w3schools.com/tags/default.asp) whenever possible. When your content does not clearly fit into a semantic element, non-semantic elements like `<div>` are fine.
+Try to use the most appropriate [HTML tags](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) whenever possible. When your content does not clearly fit into a semantic element, non-semantic elements like `<div>` are fine.
 
 ---
 ## CSS
