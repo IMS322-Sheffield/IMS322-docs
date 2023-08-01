@@ -178,7 +178,7 @@ Recommended relative units:
 - `vw` - 1% of the viewport's width.
 - `vh` - 1% of the viewport's height.
 
-### Use blank lines, indentation, and comments to Sensibly organize your CSS
+### Use blank lines, indentation, and comments to sensibly organize your CSS
 ```css
 /* This is a CSS comment */
 h2 {
