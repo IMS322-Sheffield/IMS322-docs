@@ -5,11 +5,9 @@ parent: General
 nav_order: 4
 ---
 # Additional Resources
-
-Although you will mostly be learning from in-class demonstrations and this documentation website, the links below provide additional reference material.
-
+Although you will mostly be learning from in-class demonstrations and this documentation website, the links below may be useful for additional help, review, or inspiration.
 ## YouTube Channels for tutorials, tips, and inspiration
--  [Kevin Powell](https://www.youtube.com/@KevinPowell) - CSS-focussed
+- [Kevin Powell](https://www.youtube.com/@KevinPowell) - CSS-focussed
 - [Web Dev Simplified](https://www.youtube.com/@WebDevSimplified) - CSS and JavaScript
 - [Traversy Media](https://www.youtube.com/@TraversyMedia) - wide range of content, including crash courses
 - [CSS Tricks](https://www.youtube.com/@realcsstricks)

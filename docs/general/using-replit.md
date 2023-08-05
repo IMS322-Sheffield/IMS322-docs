@@ -4,7 +4,7 @@ title: Using Replit
 parent: General
 nav_order: 3
 ---
-
+# DRAFT
 # Using Replit
 [Replit](https://replit.com) is the code editor that we will be using this semester for all coding exercises and assignments. Replit is a browser-based IDE (Integrated Development Environment), which means that everything from editing HTML/CSS/JS, error checking, previewing your  will all You will be sent an invite link to create your Replit account during the first day of class.
 

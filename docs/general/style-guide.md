@@ -4,56 +4,82 @@ title: Style Guide
 parent: General
 nav_order: 1
 ---
-
+# DRAFT
 # IMS322 Style Guide
 
-A Coding Style Guide contains a set of rules and guidelines for writing code. While some code errors are absolute (e.g. misspelling the name of a variable or function), some other things like blank space and capitalization can be more forgiving.
+A coding style guide contains a set of rules and guidelines for writing code. Many organizations, large and small (e.g. Google, Airbnb, and more), adopt style guides to ensure that everyone adopts a similar writing style. Sloppy or inconsistent code might still technically work, but it can be difficult to read, share, or debug.
+
+You can think of a coding style guide kind of like a writing style guide that you might have used before when working on a research paper, like Chicago or MLA. These style guides aren't meant to address content so much as formatting and usage, which ensures legibility and consistency.
+
+This **IMS322 Style Guide** has been compiled from a collection of reputable sources to help address the styling issues most relevant to this class. You should reference this guide regularly whenever working on exercises or assignments until it becomes second nature. Although there are some widely adopted conventions in this guide, it is by no means intended to be the "best" or "correct" approach — after taking this class, you will likely consider other coding styles based on personal or professional preference.
 
 ---
 ## General
-
 ### Lowercase file names
 As in `index.html`, NOT `Index.html` or `INDEX.html`.
-
 ### Default filenames
 Use the following default filenames in your projects:
 - `index.html`
 - `style.css`
 - `script.js`
 
-If you need more files (e.g. multiple CSS files), is it OK to use other unique and descriptive names like `footer-style.css`. Indeed, each Replit template in this class will include an `ims322-style.css` file in addition to the standard `style.css` file. You can read more about what the  `ims322-style.css` is for [here](css-framework).
-
+If you need more files (e.g. multiple CSS files), it is acceptable to use other unique and descriptive names like `footer-style.css`. In fact, each Replit template in this class will include an `ims322-style.css` file in addition to the standard `style.css` file. You can read more about the purpose of `ims322-style.css` [here](css-framework).
 ### Image names
 Rename you image files for clarity and simplicity whenever necessary. For example, `dog.jpg` is much easier to type and identify than `neom-9E9NsEiUGxg-unsplash.jpg` or `IMG_1234.JPG`.
-
 ### Image sizes
-Ensure that all image files used in your projects are reasonably sized according to their intended use.
+Ensure that all image files used in your projects are reasonably sized (not too large, not too small) according to their intended use.
 
+Modern high-DPI (dots per inch) displays actually scale content to provide sharper image quality when content is designed appropriately. For example, a website with a width of `800px` on a 13" MacBook Air actually fills `1600px` of the display — it uses 4 pixels (2 in width, 2 in height) to render every 1 pixel of content.[^1]
+
+This means that you should consider how much of the browser window width your image files will cover (in pixels), and then *double that value* when cropping or downloading image files. For example, an image that will only take up half of the browser window at the most (e.g. one side of a two-column layout, `550px` of window space) should have an original width of approximately `1100px`. When downloading images from [Unsplash](https://unsplash.com), the most appropriate size for your layout will often be the small or medium option.
+
+To illustrate, the two images below are each inside of `<figure>` elements that have the property `max-width: 320px`. Even though they look identical, the one on the left is much smaller in both original resolution and file size, which can result in faster loading times.
+<div style="display: flex; justify-content: space-evenly; gap: 1ch;">
+	<figure style="max-width: 320px">
+		<img src="images/building-small.jpg" style="width: 100%">
+		<figcaption style="font-style: italic;">640X490 original resolution (223KB)</figcaption>
+	</figure>
+	<figure style="max-width: 320px">
+		<img src="images/building-large.jpg" style="width: 100%">
+		<figcaption style="font-style: italic;">2400X3600 original resolution (2MB)</figcaption>
+	</figure>
+</div>
+[^1]: If you have a 4K TV at home (3840 x 2160), a similar process occurs when it is upscaling 1920 x 1080 content (HD, but not 4K).
+### Image containers and aspect ratios
+It is highly recommended to wrap all images in a `<figure>` element. This will generally make it much easier to attain the desired image size within your layout without distorting the aspect ratio. All `<img>` elements have the `width: 100%` property applied by default in `ims322-style.css`, which means that they will automatically take on the width of their parent container without becoming stretched or squished. As an added bonus, the `<figcaption>` element can be used inside of a `<figure>` element to easily add captions to your images if desired.
+
+HTML
+```html
+<figure class="ostrich-container">
+  <img src="images/ostrich.jpg" alt="ostrich">
+  <figcaption>Ostrich</figcaption>
+</figure>
+```
+
+CSS
+```css
+img {
+  width: 100%;
+}
+
+.ostrich-container {
+  max-width: 320px;
+}
+```
+
+Results
+<figure style="max-width: 320px">
+  <img src="images/ostrich.jpg" alt="ostrich" width="100%";>
+  <figcaption>Ostrich</figcaption>
+</figure>
+
+### Media queries
 We will be using the following screen width targets for all projects (based on [MDN Web Docs recommendations](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/CSS#mobile-first_media_queries)):
 - 480px (mobile)
 - 800px (tablet, narrow laptop/desktop windows)
 - 1100px (wide laptop/desktop windows)
 
-These sizes are already pre-configured for you in the `ims322-style.css` file media queries.
-
-Modern high-DPI (dots per inch) displays actually scale content. For example, a website with a width of 800px on a 13" MacBook Air actually fills 1600px of the display. It uses 4 pixels (2 in width, 2 in height) to render every 1 pixel of content. 
-
-When considering image sizes, this means that you consider how much of the window width your image files will use, and then double that. For example, an image that will only take up half of the window at the most (e.g. one side of a two-column layout, 550px of window space) does not need to be any wider than 1100px.
-
-When downloading images from [Unsplash](https://unsplash.com), you are usually given the choice of a small, medium, large, or original resolution. Depending on your specific layout, small or medium will likely be the best choice. If you do not 
-
-The two images below are each inside of `<div>` elements that have the property `max-width: 320px`. Even though they look identical, the one on the left was the "small" size option on Unsplash, while the one on the right was the "large" option. The small version is only 640X490 pixels and 223KB, while the large one is 2400X3600 and 2MB!
-
-<div style="display: flex; justify-content: space-evenly; gap: 1ch;">
-	<figure style="max-width: 320px">
-		<img src="images/building-small.jpg" style="width: 100%">
-		<figcaption style="font-style: italic;">640X490 original resolution</figcaption>
-	</figure>
-	<figure style="max-width: 320px">
-		<img src="images/building-large.jpg" style="width: 100%">
-		<figcaption style="font-style: italic;">2400X3600 original resolution</figcaption>
-	</figure>
-</div>
+These sizes are already pre-configured for you in the `ims322-style.css` file media queries and the `body *` selector (which applies to all children of the `<body>` element).
 
 ---
 ## HTML
