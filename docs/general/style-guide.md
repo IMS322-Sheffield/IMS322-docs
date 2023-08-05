@@ -37,7 +37,7 @@ To illustrate, the two images below are each inside of `<figure>` elements that 
 <div style="display: flex; justify-content: space-evenly; gap: 1ch;">
 	<figure style="max-width: 320px">
 		<img src="images/building-small.jpg" style="width: 100%">
-		<figcaption style="font-style: italic;">640X490 original resolution (223KB)</figcaption>
+		<figcaption style="font-style: italic;">640X960 original resolution (223KB)</figcaption>
 	</figure>
 	<figure style="max-width: 320px">
 		<img src="images/building-large.jpg" style="width: 100%">
@@ -48,7 +48,7 @@ To illustrate, the two images below are each inside of `<figure>` elements that 
 ### Image containers and aspect ratios
 It is highly recommended to wrap all images in a `<figure>` element. This will generally make it much easier to attain the desired image size within your layout without distorting the aspect ratio. All `<img>` elements have the `width: 100%` property applied by default in `ims322-style.css`, which means that they will automatically take on the width of their parent container without becoming stretched or squished. As an added bonus, the `<figcaption>` element can be used inside of a `<figure>` element to easily add captions to your images if desired.
 
-Example HTML
+#### Example HTML
 ```html
 <figure class="ostrich-container">
   <img src="images/ostrich.jpg" alt="ostrich">
@@ -56,7 +56,7 @@ Example HTML
 </figure>
 ```
 
-Example CSS
+#### Example CSS
 ```css
 img {
   width: 100%;
@@ -67,7 +67,7 @@ img {
 }
 ```
 
-Results
+#### Results
 <figure style="max-width: 320px;">
   <img src="images/ostrich.jpg" width="100%">
   <figcaption style="font-style: italic;">Ostrich</figcaption>
@@ -87,13 +87,13 @@ Excerpted from [W3 Schools](https://www.w3schools.com/html/html5_syntax.asp) and
 
 ### Lowercase element names
 
-This:
+#### This:
 ```html
 <div>
   <p>This is a paragraph.</p>
 </div>
 ```
-Not this:
+#### Not this:
 ```html
 <DIV>
   <P>This is a paragraph.</P>
@@ -102,11 +102,11 @@ Not this:
 
 
 ### Do not use spaces around equals signs
-This:
+#### This:
 ```html
 <img src="headshot.jpg" alt="Headshot">
 ```
-Not this:
+#### Not this:
 ```html
 <img src = "headshot.jpg" alt = "Headshot">
 ```
