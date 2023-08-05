@@ -7,6 +7,7 @@ nav_order: 4
 # Additional Resources
 
 Although you will mostly be learning from in-class demonstrations and this documentation website, the links below provide additional reference material.
+
 ## YouTube Channels for tutorials, tips, and inspiration
 -  [Kevin Powell](https://www.youtube.com/@KevinPowell) - CSS-focussed
 - [Web Dev Simplified](https://www.youtube.com/@WebDevSimplified) - CSS and JavaScript

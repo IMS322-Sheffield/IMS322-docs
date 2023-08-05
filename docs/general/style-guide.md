@@ -45,8 +45,14 @@ When downloading images from [Unsplash](https://unsplash.com), you are usually g
 The two images below are each inside of `<div>` elements that have the property `max-width: 320px`. Even though they look identical, the one on the left was the "small" size option on Unsplash, while the one on the right was the "large" option. The small version is only 640X490 pixels and 223KB, while the large one is 2400X3600 and 2MB!
 
 <div style="display: flex; justify-content: space-evenly; gap: 1ch;">
-	<div style="max-width: 320px"><img src="images/building-small.jpg" style="width: 100%"></div>
-	<div style="max-width: 320px"><img src="images/building-large.jpg" style="width: 100%"></div>
+	<figure style="max-width: 320px">
+		<img src="images/building-small.jpg" style="width: 100%">
+		<figcaption>Small = 640X490 223KB</figcaption>
+	</figure>
+	<figure style="max-width: 320px">
+		<img src="images/building-large.jpg" style="width: 100%">
+		<figcaption>Large = 2400X3600 2MB</figcaption>
+	</figure>
 </div>
 
 ---

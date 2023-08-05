@@ -7,14 +7,18 @@ nav_order: 2
 
 # IMS322 CSS Mini-Framework
 
-A CSS framework usually comprises several stylesheets with prepared styles for layouts, inputs, fonts, navbars, and more. Examples of CSS frameworks include:
-- [Bootstrap](https://getbootstrap.com) (extensive toolkit that also includes prebuilt interactive components and JavaScript functionality)
-- [Tailwind CSS](https://tailwindcss.com)
-- [Bulma](https://bulma.io)
+A CSS framework (e.g. [Tailwind CSS](https://tailwindcss.com) or [Bulma](https://bulma.io)) is a collection of several stylesheets with predefined styles for page layouts, inputs and controls, fonts, color palettes, navigation, and more.
 
-While CSS frameworks can save time and effort, they also tend to heavily influence the overall aesthetic and form of sites and projects. Additionally, it is still beneficial to have a good grasp on CSS fundamentals before adopting a framework.
+While CSS frameworks can save time and effort for busy web developers, they are usually very "opinionated," meaning that they may influence the overall aesthetic and form of sites and projects. This isn't necessarily a bad thing, but it does mean that it can require additional effort to ensure that your project does not look the same as others built using the same utility. Additionally, it is beneficial to have a good grasp on CSS fundamentals before adopting a framework.
 
-For this class, I have created a very basic and minimal IMS322 CSS mini-framework consisting of a single stylesheet. Every assignment template will contain an `ims322-style.css` file that predefines a small collection of style characteristics to help you get started. These are by no means meant to cover ever style or layout, but they are intended to address many of the most common needs and pitfalls.
+<div style="display: flex; justify-content: center;">
+	<figure style="max-width: 330px">
+		<img src="images/bulma-buttons.png" style="width: 100%">
+		<figcaption>Bulma button styles</figcaption>
+	</figure>
+</div>
+
+Each Replit template for this class will include a very basic and minimal IMS322 CSS mini-framework consisting of a single `ims322-style.css` stylesheet. The predefined style properties in our mini-framework are nowhere near as complete or sophisticated as what you would normally find in a mainstream CSS framework. Rather, they are intended as a tool to help save time and prevent minor headaches - and avoid some of my style pet peeves!
 
 ## IMS322 Body Element
 

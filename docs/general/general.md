@@ -7,5 +7,3 @@ permalink: /docs/general
 ---
 
 # General
-
-Blah blah
