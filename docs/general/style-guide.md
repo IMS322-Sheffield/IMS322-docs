@@ -48,7 +48,7 @@ To illustrate, the two images below are each inside of `<figure>` elements that 
 ### Image containers and aspect ratios
 It is highly recommended to wrap all images in a `<figure>` element. This will generally make it much easier to attain the desired image size within your layout without distorting the aspect ratio. All `<img>` elements have the `width: 100%` property applied by default in `ims322-style.css`, which means that they will automatically take on the width of their parent container without becoming stretched or squished. As an added bonus, the `<figcaption>` element can be used inside of a `<figure>` element to easily add captions to your images if desired.
 
-HTML
+Example HTML
 ```html
 <figure class="ostrich-container">
   <img src="images/ostrich.jpg" alt="ostrich">
@@ -56,7 +56,7 @@ HTML
 </figure>
 ```
 
-CSS
+Example CSS
 ```css
 img {
   width: 100%;
