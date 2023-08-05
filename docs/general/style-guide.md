@@ -47,11 +47,11 @@ The two images below are each inside of `<div>` elements that have the property 
 <div style="display: flex; justify-content: space-evenly; gap: 1ch;">
 	<figure style="max-width: 320px">
 		<img src="images/building-small.jpg" style="width: 100%">
-		<figcaption>Small = 640X490 223KB</figcaption>
+		<figcaption style="font-style: italic;">640X490 original resolution</figcaption>
 	</figure>
 	<figure style="max-width: 320px">
 		<img src="images/building-large.jpg" style="width: 100%">
-		<figcaption>Large = 2400X3600 2MB</figcaption>
+		<figcaption style="font-style: italic;">2400X3600 original resolution</figcaption>
 	</figure>
 </div>
 
