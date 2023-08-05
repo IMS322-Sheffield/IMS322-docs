@@ -113,7 +113,7 @@ Excerpted from [W3 Schools](https://www.w3schools.com/html/html5_syntax.asp) and
 
 
 ### Use blank lines, indentation, and comments to sensibly organize your HTML
-This:
+#### This:
 ```html
 <body>
 
@@ -133,7 +133,7 @@ This:
 </body>
 ```
 
-Not this:
+#### Not this:
 ```html
 <body>
 <header>
@@ -227,14 +227,14 @@ h3 {
 ### Apply CSS using classes
 Unless you are applying a style property broadly (e.g. you want *all* `h2` elements to be blue), use class selectors whenever possible.
 
-In HTML:
+#### Example HTML:
 ```html
 <h2>This is a level 2 heading.</h2>
 <p class="warning-text">This is warning text for really important stuff.</p>
 
 ```
 
-In CSS:
+#### Example CSS:
 ```css
 /* An element selector */
 h2 {
@@ -274,7 +274,7 @@ console.log('hello');
 ```
 
 ### Add a space after keywords and around operators and equals signs
-This:
+#### This:
 ```js
 const exampleNumber = 10;
 const exampleOperation = exampleNumber * 2;
@@ -286,7 +286,7 @@ if (favoriteFruit === 'apple') {
 }
 ```
 
-Not this:
+#### Not this:
 ```js
 const exampleNumber=10;
 const exampleOperation=exampleNumber*2;
@@ -299,13 +299,13 @@ if(favoriteFruit==='apple') {
 ```
 
 ### Do not use spaces inside parentheses
-This:
+#### This:
 ```js
 if (favoriteFruit === 'apple') {
   console.log('I like apples, too!');
 }
 ```
-Not this:
+#### Not this:
 ```js
 if ( favoriteFruit === 'apple' ) {
   console.log( 'I like apples, too!' );
@@ -313,11 +313,11 @@ if ( favoriteFruit === 'apple' ) {
 ```
 
 ### Always use `===` instead of `==` in `if` statements
-This:
+#### This:
 ```js
 if (name === 'John')
 ```
-Not this:
+#### Not this:
 ```js
 if (name == 'John')
 ```
@@ -347,7 +347,7 @@ function declareLove() {
 ```
 
 ### Use blank lines, indentation, and comments to sensibly organize your JavaScript
-This:
+#### This:
 ```js
 // This is a JavaScript comment
 if (favoriteFruit === 'apple') {
@@ -363,7 +363,7 @@ function declareLove() {
 }
 ```
 
-Not this:
+#### Not this:
 ```js
 if (favoriteFruit === 'apple') {
 console.log('I like apples, too!');
