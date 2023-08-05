@@ -68,9 +68,9 @@ img {
 ```
 
 Results
-<figure style="max-width: 320px">
-  <img src="images/ostrich.jpg" alt="ostrich" width="100%";>
-  <figcaption>Ostrich</figcaption>
+<figure style="max-width: 320px;">
+  <img src="images/ostrich.jpg" width="100%">
+  <figcaption style="font-style: italic;">Ostrich</figcaption>
 </figure>
 
 ### Media queries
