@@ -70,10 +70,12 @@ img {
 }
 ```
 #### Results
-<figure style="max-width: 320px;">
-  <img src="images/ostrich.jpg" style="width: 100%;">
-  <figcaption style="font-style: italic;">An ostrich, yeah?</figcaption>
-</figure>
+<div style="display: flex; justify-content: center;"> 
+  <figure style="max-width: 320px;">
+	<img src="images/ostrich.jpg" style="width: 100%;">
+	<figcaption style="font-style: italic;">An ostrich, yeah?</figcaption>
+  </figure>
+</div>
 ---
 ## HTML
 Excerpted from [W3 Schools](https://www.w3schools.com/html/html5_syntax.asp) and [MDN Web Docs](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/HTML).
@@ -181,10 +183,12 @@ Before diving in and writing any HTML or CSS, plan your styles carefully.
 - Are they be reusable?
 
 It can be very helpful to start with a basic sketch to help answer some of these questions — especially for identifying things like natural rows and columns or groups of visual elements.
-<figure style="max-width: 640px;">
-  <img src="images/miamioh-layout.jpg" style="width: 100%;">
-  <figcaption style="font-style: italic;">Dashed lines added to highlight the row and column arrangement</figcaption>
-</figure>
+<div style="display: flex; justify-content: center;"> 
+  <figure style="max-width: 640px;">
+    <img src="images/miamioh-layout.jpg" style="width: 100%;">
+    <figcaption style="font-style: italic;">Dashed lines added to highlight the row and column arrangement</figcaption>
+  </figure>
+</div>
 If you keep finding yourself writing styles and then cancelling them again a few rules down, you probably need to rethink your strategy. *This is especially important for responsive layouts like Flexbox.*
 ### Use flexible and relative units whenever possible
 For maximum flexibility over the widest possible range of devices, it is a good idea to set size properties using relative units.
