@@ -11,10 +11,12 @@ A CSS framework (e.g. [Tailwind CSS](https://tailwindcss.com) or [Bulma](https:/
 
 While CSS frameworks can save time and effort for busy web developers, they are usually very "opinionated," meaning that they may influence the overall aesthetic and form of sites and projects. This isn't necessarily a bad thing, but it does mean that it can require additional effort to ensure that your project does not look the same as others built using the same utility. Additionally, it is beneficial to have a good grasp on CSS fundamentals before adopting a framework.
 
-<figure style="width: 361px">
-	<img src="images/bulma-buttons.png" style="width: 100%">
-	<figcaption style="font-style: italic;">Button styles in Bulma</figcaption>
-</figure>
+<div style="display: flex; justify-content: center;">
+	<figure style="width: 361px">
+		<img src="images/bulma-buttons.png" style="width: 100%">
+		<figcaption style="font-style: italic; text-align: center;">Button styles in Bulma</figcaption>
+	</figure>
+</div>
 
 Each Replit template for this class will include a very basic and minimal IMS322 CSS mini-framework consisting of a single `ims322-style.css` stylesheet. The predefined style properties in our mini-framework are nowhere near as complete or sophisticated as what you would normally find in a mainstream CSS framework. Rather, they are intended as a tool to help save time and prevent minor headaches - and avoid some of my style pet peeves!
 

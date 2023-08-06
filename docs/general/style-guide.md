@@ -43,11 +43,11 @@ To illustrate, the two images below are each inside of `<figure>` elements that 
 <div style="display: flex; justify-content: space-evenly; gap: 1ch;">
 	<figure style="max-width: 320px">
 		<img src="images/building-small.jpg" style="width: 100%">
-		<figcaption style="font-style: italic;">640X960 original resolution (223KB)</figcaption>
+		<figcaption style="font-style: italic; text-align: center;">640X960 original resolution (223KB)</figcaption>
 	</figure>
 	<figure style="max-width: 320px">
 		<img src="images/building-large.jpg" style="width: 100%">
-		<figcaption style="font-style: italic;">2400X3600 original resolution (2MB)</figcaption>
+		<figcaption style="font-style: italic; text-align: center;">2400X3600 original resolution (2MB)</figcaption>
 	</figure>
 </div>
 ### Image containers and aspect ratios
@@ -73,7 +73,7 @@ img {
 <div style="display: flex; justify-content: center;"> 
   <figure style="max-width: 320px;">
 	<img src="images/ostrich.jpg" style="width: 100%;">
-	<figcaption style="font-style: italic;">An ostrich, yeah?</figcaption>
+	<figcaption style="font-style: italic; text-align: center;">An ostrich, yeah?</figcaption>
   </figure>
 </div>
 ---
@@ -186,7 +186,7 @@ It can be very helpful to start with a basic sketch to help answer some of these
 <div style="display: flex; justify-content: center;"> 
   <figure style="max-width: 640px;">
     <img src="images/miamioh-layout.jpg" style="width: 100%;">
-    <figcaption style="font-style: italic;">Dashed lines added to highlight the row and column arrangement</figcaption>
+    <figcaption style="font-style: italic; text-align: center;">Dashed lines added to highlight the row and column arrangement</figcaption>
   </figure>
 </div>
 If you keep finding yourself writing styles and then cancelling them again a few rules down, you probably need to rethink your strategy. *This is especially important for responsive layouts like Flexbox.*
