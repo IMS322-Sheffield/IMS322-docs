@@ -15,7 +15,7 @@ This **IMS322 Style Guide** has been compiled from a collection of reputable sou
 
 ---
 ## General
-### Lowercase file names
+### Use lowercase file names
 As in `index.html`, NOT `Index.html` or `INDEX.html`.
 ### Default filenames
 Use the following default filenames in your projects:
@@ -24,7 +24,7 @@ Use the following default filenames in your projects:
 - `script.js`
 
 If you need more files (e.g. multiple CSS files), it is acceptable to use other unique and descriptive names like `footer-style.css`. In fact, each Replit template in this class will include an `ims322-style.css` file in addition to the standard `style.css` file. You can read more about the purpose of `ims322-style.css` [here](css-framework).
-### Image names
+### Simplify image names
 Rename image files for clarity and simplicity whenever necessary. For example, `dog.jpg` is much easier to type and identify than `neom-9E9NsEiUGxg-unsplash.jpg` or `IMG_1234.JPG`.
 ### Media queries and display size targets
 We will be using the following screen widths for all projects (based on [MDN Web Docs recommendations](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/CSS#mobile-first_media_queries)):
@@ -78,7 +78,7 @@ img {
 ---
 ## HTML
 Excerpted from [W3 Schools](https://www.w3schools.com/html/html5_syntax.asp) and [MDN Web Docs](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/HTML).
-### Lowercase element names
+### Use lowercase element names
 #### This:
 ```html
 <div>
@@ -91,7 +91,7 @@ Excerpted from [W3 Schools](https://www.w3schools.com/html/html5_syntax.asp) and
   <P>This is a paragraph.</P>
 </DIV>
 ```
-### No spaces around equals signs
+### Do not use spaces around equals signs
 #### This:
 ```html
 <img src="headshot.jpg" alt="Headshot">
@@ -135,7 +135,7 @@ Excerpted from [W3 Schools](https://www.w3schools.com/html/html5_syntax.asp) and
 </footer>
 </body>
 ```
-### The `<html>`, `<head>`, `<title>`, and `<body>` elements
+### Ensure there is always only one of each `<html>`, `<head>`, `<title>`, and `<body>` elements
 The template in Replit will automatically include one of each of these elements for you. Be careful not to accidentally duplicate or break these elements when editing or copy-pasting.
 ```html
 <!DOCTYPE html>
@@ -161,39 +161,49 @@ Class and ID attributes should always be written using the the *kebab-case* conv
 ```html
 <p class="kebab-case-class" id="kebab-case-id">Blah blah blah.</p>
 ```
-Use concise, searchable, and meaningful names. Only use common and easy-to remember abbreviations if a name becomes excessively long.
-### Semantic HTML
-A [semantic HTML](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html) element describes its meaning, providing context for the developer, browser, and user. It also improves accessibility for people that use screen readers. Some examples of common semantic HTML elements are:
+Write concise, searchable, and meaningful names. Only use common and easy-to remember abbreviations if a name becomes excessively long.
+### Use semantic HTML
+A [semantic HTML](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html) element describes its meaning, contextualizing its contents for the developer, browser, and user. It also improves accessibility for people that use screen readers. Some examples of common semantic HTML elements are:
 - `<h1>`, `<h2>`, `<h3>`, etc.
 - `<header>`
 - `<main>`
 - `<nav>`
 - `<section>`
 
-Try to use the most appropriate [HTML tags](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) whenever possible. If your content does not obviously coincide with a semantic element, non-semantic elements like `<div>` are fine.
+Try to use the most appropriate [HTML tags](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) whenever possible. If your content does not obviously coincide with a semantic element, the non-semantic element like `<div>` is appropriate.
 
 ---
 ## CSS
 Portions excerpted from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/CSS#mobile-first_media_queries).
-
 ### Plan your CSS
-Before diving in and writing huge chunks of CSS, plan your styles carefully. What general styles are going to be needed, what different layouts do you need to create, what specific overrides need to be created, and are they reusable? Above all, you need to try to avoid too much overriding. If you keep finding yourself writing styles and then cancelling them again a few rules down, you probably need to rethink your strategy. *This is especially important for responsive layouts like Flexbox.*
+Before diving in and writing any HTML or CSS, plan your styles carefully.
+- What general styles are going to be needed?
+- What different layouts do you need to create?
+- Are they be reusable?
 
-### Use flexible/relative units
-For maximum flexibility over the widest possible range of devices, it is a good idea to size containers, padding, etc. using relative units like `ems` and `rems` or percentages and viewport units if you want them to vary depending on viewport width. You can read some more about this in the MDN Web Docs guide to [CSS values and units](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/CSS#mobile-first_media_queries).
-
-The only absolute unit recommended is `px`, and only when it is the best fit. Some examples:
-- If you want to ensure that an image never displays larger than its original resolution, you can set the `max-width` in `px`.
-- If you want to have specific control over the roundness of box corners, you can set the `border-radius` in `px`.
+It can be very helpful to start with a basic sketch to help answer some of these questions — especially for identifying things like natural rows and columns or groups of visual elements.
+<figure style="max-width: 640px;">
+  <img src="images/miami-layout.jpg" style="width: 100%;">
+  <figcaption style="font-style: italic;">Dashed lines added to highlight the row and column arrangement</figcaption>
+</figure>
+If you keep finding yourself writing styles and then cancelling them again a few rules down, you probably need to rethink your strategy. *This is especially important for responsive layouts like Flexbox.*
+### Use flexible and relative units whenever possible
+For maximum flexibility over the widest possible range of devices, it is a good idea to set size properties using relative units.
 
 Recommended relative units:
 - `%` - Percentage relative to the parent element. 
 - `ch` - The width of the number "0" of the element's font.
 - `rem`	- Relative to the default browser font size.
-- `vw` - 1% of the viewport's width.
-- `vh` - 1% of the viewport's height.
+- `vw` - 1% of the viewport's (window) width.
+- `vh` - 1% of the viewport's (window) height.
 
-### Use blank lines, indentation, and comments to sensibly organize your CSS
+The only absolute unit recommended in this class is `px`, and only when it is the best fit. Some examples:
+- If you want to ensure that an image never displays larger than its original resolution, set the `max-width` of its parent element in `px`.
+- If you want to have specific control over the roundness of box corners, set `border-radius` in `px`.
+
+You can read more about all valid absolute and relative units in this [MDN Web Docs reference](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units#numbers_lengths_and_percentages).
+### Organize CSS with blank lines, indentation, and comments
+#### This:
 ```css
 /* This is a CSS comment */
 h2 {
@@ -206,20 +216,27 @@ h3 {
   font-size: 2rem;
 }
 ```
-
-### Apply CSS using classes
-Unless you are applying a style property broadly (e.g. you want *all* `h2` elements to be blue), use class selectors whenever possible.
-
+#### Not this:
+```css
+h2 {
+font-size: 2.4rem;
+}
+h3 {
+text-shadow: 1px 1px 2px red;
+font-size: 2rem;
+}
+```
+### Style with class selectors
+Use class selectors for styling whenever possible. Element selectors should only be used to apply a style property globally (e.g. you want *all* `h2` elements to be blue). Do not use ID selectors.
 #### Example HTML:
 ```html
 <h2>This is a level 2 heading.</h2>
 <p class="warning-text">This is warning text for really important stuff.</p>
 
 ```
-
 #### Example CSS:
 ```css
-/* An element selector */
+/* An element selector, applies to all h2 elements */
 h2 {
   color: blue;
 }
@@ -234,9 +251,8 @@ h2 {
 ---
 ## JavaScript
 Excerpted from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/JavaScript) and [JavaScript Standard Style](https://standardjs.com/rules.html).
-
 ### Loading JavaScript in HTML
-You may see `<script>` tags located within the `<body>` when following tutorials or example online. However, for this class, we will always place our `<script>` tags in the `<head>` with the added `defer` keyword.
+Online tutorials or examples may load JavaScript by putting `<script>` tags in the `<body>` element. While that is a valid approach, always put your `<script>` tags in the `<head>` element with the added `defer` keyword.
 ```html
 <head>
   <meta charset="utf-8">
@@ -247,114 +263,120 @@ You may see `<script>` tags located within the `<body>` when following tutorials
   <script src="script.js" defer></script>
 </head>
 ```
-
 ### Declare variables with `let` and `const`
-Use the keywords `let` (for values that will change) and `const` (for values that will not change) when declaring variables. Although it will still work, do not use the outdated `var`.
-
+Use the keywords `let` (for values that will change) and `const` (for values that will not change) when declaring variables.
+```js
+let favoriteFruit = 'apple'
+const birthYear = 1986
+```
+Although it is still technically valid, do not use the outdated `var`.
 ### Use single quotes for strings
 ```js
-console.log('hello');
+console.log('hello')
 ```
-
 ### Add a space after keywords and around operators and equals signs
 #### This:
 ```js
-const exampleNumber = 10;
-const exampleOperation = exampleNumber * 2;
+const exampleNumber = 10
+const exampleOperation = exampleNumber * 2
 
-let favoriteFruit = 'apple';
+let favoriteFruit = 'apple'
 
 if (favoriteFruit === 'apple') {
-  console.log('I like apples, too!');
+  console.log('I like apples, too!')
 }
 ```
-
 #### Not this:
 ```js
-const exampleNumber=10;
-const exampleOperation=exampleNumber*2;
+const exampleNumber=10
+const exampleOperation=exampleNumber*2
 
-let favoriteFruit='apple';
+let favoriteFruit='apple'
 
 if(favoriteFruit==='apple') {
-  console.log('I like apples, too!');
+  console.log('I like apples, too!')
 }
 ```
-
+### Be consistent with semicolons
+If you are familiar with other programming languages or have already learned some JavaScript, you might be used to seeing statements end with a semicolon.
+#### Semicolon example:
+```js
+let favoriteFruit = 'apple';
+```
+However, JavaScript has not required semicolons for quite some time, and other modern popular languages like [Python](https://www.python.org), [Go](https://go.dev), and [Swift](https://developer.apple.com/swift/) do not use them at all. The important thing it to be consistent — either use them at the end of every statement, or don't use them at all.
 ### Do not use spaces inside parentheses
 #### This:
 ```js
 if (favoriteFruit === 'apple') {
-  console.log('I like apples, too!');
+  console.log('I like apples, too!')
 }
 ```
 #### Not this:
 ```js
 if ( favoriteFruit === 'apple' ) {
-  console.log( 'I like apples, too!' );
+  console.log( 'I like apples, too!' )
 }
 ```
-
 ### Always use `===` instead of `==` in `if` statements
 #### This:
 ```js
-if (name === 'John')
+if (name === 'John') {
+  // stuff
+}
 ```
 #### Not this:
 ```js
-if (name == 'John')
+if (name == 'John') {
+  // stuff
+}
 ```
-
 ### Naming variables and functions
-Variables and functions should be written using the "camelCase" convention in which each word after the first one starts with a capital letter (without spaces or hyphens). 
+Variables and functions should be written using the *camelCase* convention in which each word (except the first) starts with a capital letter (without spaces or hyphens). 
 ```js
-const favoriteFruit = 'apple';
+const favoriteFruit = 'apple'
 ```
 
-Use concise, searchable, and meaningful names. Only use common and easy to remember abbreviations when a name becomes excessively long.
-
-## Curly brace spacing
+Write concise, searchable, and meaningful names. Only use common and easy-to remember abbreviations if a name becomes excessively long.
+### Curly brace spacing
 When using curly braces (e.g. in `if` statements, `for` loops, and `function` declarations), the opening brace should be on the same line as the corresponding keyword. There should also be a space before the opening bracket.
 ```js
 if (favoriteFruit === 'apple') {
-  console.log('I like apples, too!');
+  console.log('I like apples, too!')
 }
 
 for (const car of allCars) {
-  car.paint("red");
+  car.paint("red")
 }
 
 function declareLove() {
-  console.log('I love everything!');
+  console.log('I love everything!')
 }
 ```
-
-### Use blank lines, indentation, and comments to sensibly organize your JavaScript
+### Organize JavaScript with blank lines, indentation, and comments
 #### This:
 ```js
 // This is a JavaScript comment
 if (favoriteFruit === 'apple') {
-  console.log('I like apples, too!');
+  console.log('I like apples, too!')
 }
 
 for (const car of allCars) {
-  car.paint("red");
+  car.paint("red")
 }
 
 function declareLove() {
-  console.log('I love everything!');
+  console.log('I love everything!')
 }
 ```
-
 #### Not this:
 ```js
 if (favoriteFruit === 'apple') {
-console.log('I like apples, too!');
+console.log('I like apples, too!')
 }
 for (const car of allCars) {
-car.paint("red");
+car.paint("red")
 }
 function declareLove() {
-console.log('I love everything!');
+console.log('I love everything!')
 }
 ```
