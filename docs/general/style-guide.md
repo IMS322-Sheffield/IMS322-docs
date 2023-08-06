@@ -183,7 +183,7 @@ Before diving in and writing any HTML or CSS, plan your styles carefully.
 
 It can be very helpful to start with a basic sketch to help answer some of these questions — especially for identifying things like natural rows and columns or groups of visual elements.
 <figure style="max-width: 640px;">
-  <img src="images/miami-layout.jpg" style="width: 100%;">
+  <img src="images/miamioh-layout.jpg" style="width: 100%;">
   <figcaption style="font-style: italic;">Dashed lines added to highlight the row and column arrangement</figcaption>
 </figure>
 If you keep finding yourself writing styles and then cancelling them again a few rules down, you probably need to rethink your strategy. *This is especially important for responsive layouts like Flexbox.*
