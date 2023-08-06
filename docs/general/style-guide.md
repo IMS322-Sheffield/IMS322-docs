@@ -4,7 +4,6 @@ title: Style Guide
 parent: General
 nav_order: 1
 ---
-# DRAFT
 # IMS322 Style Guide
 
 A coding style guide contains a set of rules and guidelines for writing code. Many organizations, large and small (e.g. Google, Airbnb, and more), adopt style guides to ensure that everyone adopts a similar style. Sloppy or inconsistent code might still technically work, but it can be difficult to read, share, or debug.
