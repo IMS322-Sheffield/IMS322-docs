@@ -7,11 +7,11 @@ nav_order: 1
 # DRAFT
 # IMS322 Style Guide
 
-A coding style guide contains a set of rules and guidelines for writing code. Many organizations, large and small (e.g. Google, Airbnb, and more), adopt style guides to ensure that everyone adopts a similar writing style. Sloppy or inconsistent code might still technically work, but it can be difficult to read, share, or debug.
+A coding style guide contains a set of rules and guidelines for writing code. Many organizations, large and small (e.g. Google, Airbnb, and more), adopt style guides to ensure that everyone adopts a similar style. Sloppy or inconsistent code might still technically work, but it can be difficult to read, share, or debug.
 
 You can think of a coding style guide kind of like a writing style guide that you might have used before when working on a research paper, like Chicago or MLA. These style guides aren't meant to address content so much as formatting and usage, which ensures legibility and consistency.
 
-This **IMS322 Style Guide** has been compiled from a collection of reputable sources to help address the styling issues most relevant to this class. You should reference this guide regularly whenever working on exercises or assignments until it becomes second nature. Although there are some widely adopted conventions in this guide, it is by no means intended to be the "best" or "correct" approach — after taking this class, you will likely consider other coding styles based on personal or professional preference.
+This **IMS322 Style Guide** has been compiled from a collection of reputable sources to help address the styling issues most relevant to this class. You should reference this guide regularly whenever working on exercises or assignments until it becomes second nature. Although there are some widely adopted conventions in this guide, it is by no means intended to be the "best" or "correct" approach — after taking this class, you might consider other coding styles based on personal or professional preference.
 
 ---
 ## General
@@ -25,15 +25,22 @@ Use the following default filenames in your projects:
 
 If you need more files (e.g. multiple CSS files), it is acceptable to use other unique and descriptive names like `footer-style.css`. In fact, each Replit template in this class will include an `ims322-style.css` file in addition to the standard `style.css` file. You can read more about the purpose of `ims322-style.css` [here](css-framework).
 ### Image names
-Rename you image files for clarity and simplicity whenever necessary. For example, `dog.jpg` is much easier to type and identify than `neom-9E9NsEiUGxg-unsplash.jpg` or `IMG_1234.JPG`.
+Rename image files for clarity and simplicity whenever necessary. For example, `dog.jpg` is much easier to type and identify than `neom-9E9NsEiUGxg-unsplash.jpg` or `IMG_1234.JPG`.
+### Media queries and display size targets
+We will be using the following screen widths for all projects (based on [MDN Web Docs recommendations](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/CSS#mobile-first_media_queries)):
+- 480px (mobile)
+- 800px (tablet, narrow laptop/desktop windows)
+- 1100px (wide laptop/desktop windows)
+
+These sizes are already pre-configured for you in the `ims322-style.css` file through media queries (for `480px` and `800px`) and the `body *` selector (for `1100px`, which applies to all children of the `<body>` element).
 ### Image sizes
 Ensure that all image files used in your projects are reasonably sized (not too large, not too small) according to their intended use.
 
-Modern high-DPI (dots per inch) displays actually scale content to provide sharper image quality when content is designed appropriately. For example, a website with a width of `800px` on a 13" MacBook Air actually fills `1600px` of the display — it uses 4 pixels (2 in width, 2 in height) to render every 1 pixel of content.[^1]
+Modern high-DPI (dots per inch) displays actually scale content to provide sharper image quality when content is designed appropriately. For example, a website with a width of `800px` on a 13" MacBook Air actually fills `1600px` of the display — it uses 4 physical pixels (2 in width, 2 in height) to render every 1 pixel of content. If you have a 4K TV at home (3840 x 2160), a similar process occurs when it is upscaling 1920 x 1080 content (which is HD, but not 4K).
 
-This means that you should consider how much of the browser window width your image files will cover (in pixels), and then *double that value* when cropping or downloading image files. For example, an image that will only take up half of the browser window at the most (e.g. one side of a two-column layout, `550px` of window space) should have an original width of approximately `1100px`. When downloading images from [Unsplash](https://unsplash.com), the most appropriate size for your layout will often be the small or medium option.
+You should consider how much of the browser window your images will cover (in pixels), and then *double that value* when cropping or downloading image files. For example, an image that will only take up half of the browser window at the most (e.g. one side of a two-column layout, `550px` of window space) should have an original width of approximately `1100px`. When downloading images from [Unsplash](https://unsplash.com), the most appropriate size for your layout will often be the small or medium option.
 
-To illustrate, the two images below are each inside of `<figure>` elements that have the property `max-width: 320px`. Even though they look identical, the one on the left is much smaller in both original resolution and file size, which can result in faster loading times.
+To illustrate, the two images below are each inside of `<figure>` elements that have the property `max-width: 320px`. Even though they look identical, the one on the left has a much smaller original resolution and file size, which can result in faster loading times.
 <div style="display: flex; justify-content: space-evenly; gap: 1ch;">
 	<figure style="max-width: 320px">
 		<img src="images/building-small.jpg" style="width: 100%">
@@ -44,18 +51,15 @@ To illustrate, the two images below are each inside of `<figure>` elements that 
 		<figcaption style="font-style: italic;">2400X3600 original resolution (2MB)</figcaption>
 	</figure>
 </div>
-[^1]: If you have a 4K TV at home (3840 x 2160), a similar process occurs when it is upscaling 1920 x 1080 content (HD, but not 4K).
 ### Image containers and aspect ratios
-It is highly recommended to wrap all images in a `<figure>` element. This will generally make it much easier to attain the desired image size within your layout without distorting the aspect ratio. All `<img>` elements have the `width: 100%` property applied by default in `ims322-style.css`, which means that they will automatically take on the width of their parent container without becoming stretched or squished. As an added bonus, the `<figcaption>` element can be used inside of a `<figure>` element to easily add captions to your images if desired.
-
+It is highly recommended to wrap all images in a `<figure>` element. This will generally make it much easier to attain the desired image size and position within your layout without distorting the aspect ratio. All `<img>` elements have the `width: 100%` property applied by default in `ims322-style.css`, which means that they will automatically take on the width of their parent container without becoming stretched or squished. As an added bonus, the `<figcaption>` element can be used inside of a `<figure>` element to easily add captions to your images if desired.
 #### Example HTML
 ```html
 <figure class="ostrich-container">
   <img src="images/ostrich.jpg" alt="ostrich">
-  <figcaption>Ostrich</figcaption>
+  <figcaption>An ostrich, yeah?</figcaption>
 </figure>
 ```
-
 #### Example CSS
 ```css
 img {
@@ -66,27 +70,15 @@ img {
   max-width: 320px;
 }
 ```
-
 #### Results
 <figure style="max-width: 320px;">
-  <img src="images/ostrich.jpg" width="100%">
-  <figcaption style="font-style: italic;">Ostrich</figcaption>
+  <img src="images/ostrich.jpg" style="width: 100%;">
+  <figcaption style="font-style: italic;">An ostrich, yeah?</figcaption>
 </figure>
-
-### Media queries
-We will be using the following screen width targets for all projects (based on [MDN Web Docs recommendations](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/CSS#mobile-first_media_queries)):
-- 480px (mobile)
-- 800px (tablet, narrow laptop/desktop windows)
-- 1100px (wide laptop/desktop windows)
-
-These sizes are already pre-configured for you in the `ims322-style.css` file media queries and the `body *` selector (which applies to all children of the `<body>` element).
-
 ---
 ## HTML
 Excerpted from [W3 Schools](https://www.w3schools.com/html/html5_syntax.asp) and [MDN Web Docs](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/HTML).
-
 ### Lowercase element names
-
 #### This:
 ```html
 <div>
@@ -99,9 +91,7 @@ Excerpted from [W3 Schools](https://www.w3schools.com/html/html5_syntax.asp) and
   <P>This is a paragraph.</P>
 </DIV>
 ```
-
-
-### Do not use spaces around equals signs
+### No spaces around equals signs
 #### This:
 ```html
 <img src="headshot.jpg" alt="Headshot">
@@ -110,9 +100,7 @@ Excerpted from [W3 Schools](https://www.w3schools.com/html/html5_syntax.asp) and
 ```html
 <img src = "headshot.jpg" alt = "Headshot">
 ```
-
-
-### Use blank lines, indentation, and comments to sensibly organize your HTML
+### Organize HTML with blank lines, indentation, and comments
 #### This:
 ```html
 <body>
@@ -132,7 +120,6 @@ Excerpted from [W3 Schools](https://www.w3schools.com/html/html5_syntax.asp) and
 
 </body>
 ```
-
 #### Not this:
 ```html
 <body>
@@ -148,9 +135,8 @@ Excerpted from [W3 Schools](https://www.w3schools.com/html/html5_syntax.asp) and
 </footer>
 </body>
 ```
-
-### Your document should always include one complete html, head, title, and body element
-The template in Replit will automatically create these for you, but it can be very easy when copy-pasting to accidentally duplicate or break these elements.
+### The `<html>`, `<head>`, `<title>`, and `<body>` elements
+The template in Replit will automatically include one of each of these elements for you. Be careful not to accidentally duplicate or break these elements when editing or copy-pasting.
 ```html
 <!DOCTYPE html>
 <html>
@@ -170,15 +156,12 @@ The template in Replit will automatically create these for you, but it can be ve
 
 </html>
 ```
-
 ### Naming classes and IDs
-Class and ID attributes should be written using the "kebab-case" convention in which multiple all-lowercase words are separated by hyphens.
+Class and ID attributes should always be written using the the *kebab-case* convention in which lowercase words are separated by hyphens.
 ```html
 <p class="kebab-case-class" id="kebab-case-id">Blah blah blah.</p>
 ```
-
-Use concise, searchable, and meaningful names. Only use common and easy to remember abbreviations when a name becomes excessively long. A class name called `main-red-text` is much easier to find and recall than `mn-rd-txt`. Similarly, the ID `answer1-button` is much easier to find and recall than `button1`.
-
+Use concise, searchable, and meaningful names. Only use common and easy-to remember abbreviations if a name becomes excessively long.
 ### Semantic HTML
 A [semantic HTML](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html) element describes its meaning, providing context for the developer, browser, and user. It also improves accessibility for people that use screen readers. Some examples of common semantic HTML elements are:
 - `<h1>`, `<h2>`, `<h3>`, etc.
@@ -187,7 +170,7 @@ A [semantic HTML](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#se
 - `<nav>`
 - `<section>`
 
-Try to use the most appropriate [HTML tags](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) whenever possible. When your content does not clearly fit into a semantic element, non-semantic elements like `<div>` are fine.
+Try to use the most appropriate [HTML tags](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) whenever possible. If your content does not obviously coincide with a semantic element, non-semantic elements like `<div>` are fine.
 
 ---
 ## CSS
