@@ -15,9 +15,10 @@ nav_order: 3
 </div>
 
 ## The Replit Editor
+[Introduction to the Workspace](https://docs.replit.com/programming-ide/introduction-to-the-workspace)
 <div style="display: flex; justify-content: center;"> 
   <figure style="width: 100%;">
-	<img src="images/replit-home.jpg" style="width: 100%;">
+	<img src="images/replit-editor.jpg" style="width: 100%;">
 	<figcaption style="font-style: italic; text-align: center;">Replit editor (typical layout)</figcaption>
   </figure>
 </div>
@@ -35,7 +36,7 @@ To accept an assignment,
 Each assignment will be built from the IMS 322 Repl template and include instructions and possibly some additional comments or example code in the HTML, CSS, and/or JavaScript files. *Make sure that you carefully read these.*
 <div style="display: flex; justify-content: center;"> 
   <figure style="width: 100%;">
-	<img src="images/replit-home.jpg" style="width: 100%;">
+	<img src="images/replit-team.jpg" style="width: 100%;">
 	<figcaption style="font-style: italic; text-align: center;">Replit Team page</figcaption>
   </figure>
 </div>
