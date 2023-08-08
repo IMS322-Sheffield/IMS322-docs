@@ -23,8 +23,8 @@ Use the following default filenames in your projects:
 - `script.js`
 
 If you need more files (e.g. multiple CSS files), it is acceptable to use other unique and descriptive names like `footer-style.css`. In fact, each Replit template in this class will include an `ims322-style.css` file in addition to the standard `style.css` file. You can read more about the purpose of `ims322-style.css` [here](css-framework).
-### Simplify image names
-Rename image files for clarity and simplicity whenever necessary. For example, `dog.jpg` is much easier to type and identify than `neom-9E9NsEiUGxg-unsplash.jpg` or `IMG_1234.JPG`.
+### Simplify image names and organization
+Rename image files for clarity and simplicity whenever necessary. For example, `dog.jpg` is much easier to type and identify than `neom-9E9NsEiUGxg-unsplash.jpg` or `IMG_1234.JPG`. Put all image files in an `images` folder in your Repl projects to help keep the file browser organized. Keep in mind, this means that the `src` attribute of your `<img>` elements will needs to include the folder with the name e.g. `images/my-image.jpg`.
 ### Media queries and display size targets
 We will be using the following screen widths for all projects (based on [MDN Web Docs recommendations](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/CSS#mobile-first_media_queries)):
 - 480px (mobile)
@@ -51,7 +51,7 @@ To illustrate, the two images below are each inside of `<figure>` elements that 
 	</figure>
 </div>
 ### Image containers and aspect ratios
-It is highly recommended to wrap all images in a `<figure>` element. This will generally make it much easier to attain the desired image size and position within your layout without distorting the aspect ratio. All `<img>` elements have the `width: 100%` property applied by default in `ims322-style.css`, which means that they will automatically take on the width of their parent container without becoming stretched or squished. As an added bonus, the `<figcaption>` element can be used inside of a `<figure>` element to easily add captions to your images if desired.
+It is highly recommended to wrap all images in a `<div>` (when it is part of another component, like the logo in a header) or `<figure>` (when the image is self-contained) element. This will generally make it much easier to attain the desired image size and position within your layout without distorting the aspect ratio. All `<img>` elements have the `width: 100%` property applied by default in `ims322-style.css`, which means that they will automatically take on the width of their parent container without becoming stretched or squished. As an added bonus, the `<figcaption>` element can be used inside of a `<figure>` element to easily add captions to your images if desired.
 #### Example HTML
 ```html
 <figure class="ostrich-container">
