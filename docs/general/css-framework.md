@@ -31,9 +31,9 @@ The `ims322-flex-column` class does all of the above but also adds the `flex-dir
 <iframe src="https://replit.com/@sheffie/IMS322-Flex-Row-Column?embed=true" width="100%" height="480" style="border: none; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"></iframe>
 ## IMS322 Images
 All `<img>` elements have the following properties by default:
-- `width: 100%` - Ensures that the width of the image always fills its parent element.
-- `object-fit: cover` - Ensures that an image covers the entire parent element (in both height and width) without distorting the aspect ratio. *Remember*: the recommendation in the IMS322 Style Guide is to always put `<img>` elements inside of a `<div>` or `<figure>` element.
-- `object-position: center` - If any part of the image is cropped by its parent element, this property ensures that it stays centered.
+- `width: 100%` - Ensures that the width of the image always fills its parent element. The height will be determined automatically in accordance with the image's original aspect ratio. *Remember, the recommendation in the IMS322 Style Guide is to always put `<img>` elements inside of a `<div>` or `<figure>` element.*
+- `object-fit: cover` - Ensures that an image covers the entire parent element (in both height and width) without distorting the aspect ratio. *This will only have an effect if the width or height of the `<img>` is manually changed from what is already in `ims322-style.css`.*
+- `object-position: center` - If any part of the image is cropped by its parent element, this property ensures that it stays centered. *This will only have an effect if the width or height of the `<img>` is manually changed from what is already in `ims322-style.css`.*
 
 Additionally, while `<figure>` elements usually have a margin by default, this has been removed with `margin: 0` in `ims322-style.css` to avoid any layout or spacing confusion when they are used as the parent of an `<img>`.
 <iframe src="https://replit.com/@sheffie/IMS322-Images?embed=true" width="100%" height="480" style="border: none; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"></iframe>
@@ -44,5 +44,5 @@ Any of the styles defined in `ims322-styles.css` can be overridden by adding add
 
 In both scenarios, any properties changed on the selector in `style.css` will be added to or overwrite those already in `ims322-style.css`.
 
-Media queries can also be customized by adding them to `style.css`.
+Media queries can also be customized if needed by adding them to `style.css`.
 <iframe src="https://replit.com/@sheffie/IMS322-Overrides?embed=true" width="100%" height="480" style="border: none; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"></iframe>
