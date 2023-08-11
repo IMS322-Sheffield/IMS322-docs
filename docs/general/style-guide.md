@@ -2,7 +2,7 @@
 layout: default
 title: Style Guide
 parent: General
-nav_order: 1
+nav_order: 3
 ---
 # IMS322 Style Guide
 
@@ -11,6 +11,8 @@ A coding style guide contains a set of rules and guidelines for writing code. Ma
 You can think of a coding style guide kind of like a writing style guide that you might have used before when working on a research paper, like Chicago or MLA. These style guides aren't meant to address content so much as formatting and usage, which ensures legibility and consistency.
 
 This **IMS322 Style Guide** has been compiled from a collection of reputable sources to help address the styling issues most relevant to this class. You should reference this guide regularly whenever working on exercises or assignments until it becomes second nature. Although there are some widely adopted conventions in this guide, it is by no means intended to be the "best" or "correct" approach — after taking this class, you might consider other coding styles based on personal or professional preference.
+
+*Note that some of the points awarded on each coding assignment will be based on how well you adhere to this style guide.*
 
 ---
 ## General

@@ -2,7 +2,7 @@
 layout: default
 title: CSS Framework
 parent: General
-nav_order: 2
+nav_order: 4
 ---
 # IMS322 CSS Mini-Framework
 
