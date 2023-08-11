@@ -67,7 +67,7 @@ a:hover {
 	color: #FF00FF;
 }
 ```
-### Transition time
+### Transition times
 Transition time sets a duration over which style changes occur gradually e.g. changing color on a button when hovered over.
 ```css
 .primary-button {
@@ -80,7 +80,7 @@ or
 	transition-duration: 1s;
 }
 ```
-## Web Browser
+## Web Browsers
 ### Browser options
 What web browsers are most commonly used? Why might someone choose one over another? Who are the developers of these browsers?
 <div style="display: flex; justify-content: center;"> 
