@@ -23,11 +23,13 @@ A typical Replit workspace setup consists of 3 main parts:
 - The file browser, where HTML, CSS, JavaScript, and any other files in your Repl (e.g. images) are found. Creating new files and folders and uploading files to Replit from your computer also happens here.
 - The text editor section, where you can see and edit the code in your HTML, CSS, and JavaScript files. It is possible to have multiple files open in different tabs within the editor pane.
 - The web preview section (aka "Webview"), where you can see a small rendered preview of your project. Clicking the big green "Run" button will refresh this preview to include your latest edits.
+
 By default, these sections will load in the orientation seen in the screenshot below. However, it is possible to rearrange or close some sections. For example, notice that the Webview tab has an X - clicking this will close that pane, leaving only the file browser and text editor. If this happens, you can always add the pane back by clicking on the 3-dot menu button in the upper-right corner.
 
 Two other important features of the workspace to note at this time:
 - The console, which can be opened by clicking the wrench icon near the top of the Webview pane.
 - "Open in a new tab" feature, which is the button to the right of the wrench. This opens the web preview in a full-sized window.
+
 We will discuss the use of these features during the first few weeks of class. In the meantime, if you would like more information or review of the Replit workspace, visit the [Introduction to the Workspace](https://docs.replit.com/programming-ide/introduction-to-the-workspace) page.
 <div style="display: flex; justify-content: center;"> 
   <figure style="width: 100%;">
