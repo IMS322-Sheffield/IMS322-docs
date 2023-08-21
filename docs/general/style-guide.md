@@ -113,7 +113,7 @@ Excerpted from [W3 Schools](https://www.w3schools.com/html/html5_syntax.asp) and
   </header>
 
   <main>
-  <!-- This is an HTML comment. -->
+    <!-- This is an HTML comment. -->
     <p>Tons of great content here.</p>
   </main>
 
@@ -162,7 +162,9 @@ The template in Replit will automatically include one of each of these elements 
 ### Naming classes and IDs
 Class and ID attributes should always be written using the the *kebab-case* convention in which lowercase words are separated by hyphens.
 ```html
-<p class="kebab-case-class" id="kebab-case-id">Blah blah blah.</p>
+<p class="kebab-case-class" id="kebab-case-id">
+  Blah blah blah.
+</p>
 ```
 Write concise, searchable, and meaningful names. Only use common and easy-to remember abbreviations if a name becomes excessively long.
 ### Use semantic HTML
@@ -237,7 +239,9 @@ Use class selectors for styling whenever possible. Element selectors should only
 ```html
 <h2>This is a level 2 heading.</h2>
 
-<p class="warning-text">This is warning text for really important stuff.</p>
+<p class="warning-text">
+  This is warning text for really important stuff.
+</p>
 
 ```
 #### Example CSS:
@@ -351,7 +355,7 @@ if (favoriteFruit === 'apple') {
 }
 
 for (const car of allCars) {
-  car.paint("red")
+  car.paint('red')
 }
 
 function declareLove() {
@@ -367,7 +371,7 @@ if (favoriteFruit === 'apple') {
 }
 
 for (const car of allCars) {
-  car.paint("red")
+  car.paint('red')
 }
 
 function declareLove() {
@@ -380,7 +384,7 @@ if (favoriteFruit === 'apple') {
 console.log('I like apples, too!')
 }
 for (const car of allCars) {
-car.paint("red")
+car.paint('red')
 }
 function declareLove() {
 console.log('I love everything!')
