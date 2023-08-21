@@ -64,20 +64,20 @@ The CSS Box Model describes how margin, border, padding, and content relate to e
 The `:hover` pseudo-class is used to define style properties to be applied when a user hovers over an element.
 ```css
 a:hover {
-	color: #FF00FF;
+  color: #FF00FF;
 }
 ```
 ### Transition times
 Transition time sets a duration over which style changes occur gradually e.g. changing color on a button when hovered over.
 ```css
 .primary-button {
-	transition: all 1s;
+  transition: all 1s;
 }
 ```
 or
 ```css
 .primary-button {
-	transition-duration: 1s;
+  transition-duration: 1s;
 }
 ```
 ## Web Browsers

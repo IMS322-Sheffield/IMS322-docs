@@ -109,12 +109,12 @@ Excerpted from [W3 Schools](https://www.w3schools.com/html/html5_syntax.asp) and
 <body>
 
   <header>
-	<h1>My Big Project</h1>
+    <h1>My Big Project</h1>
   </header>
 
   <main>
-	<!-- This is an HTML comment. -->
-	<p>Tons of great content here.</p>
+  <!-- This is an HTML comment. -->
+    <p>Tons of great content here.</p>
   </main>
 
   <footer>
@@ -232,10 +232,11 @@ font-size: 2rem;
 }
 ```
 ### Style with class selectors
-Use class selectors for styling whenever possible. Element selectors should only be used to apply a style property globally (e.g. you want *all* `h2` elements to be blue). Do not use ID selectors.
+Use class selectors for styling whenever possible. Element selectors should only be used to apply a style property globally (e.g. you want *all* `h2` elements to be blue). Do not use ID selectors in your CSS.
 #### Example HTML:
 ```html
 <h2>This is a level 2 heading.</h2>
+
 <p class="warning-text">This is warning text for really important stuff.</p>
 
 ```
