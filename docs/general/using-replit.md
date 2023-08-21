@@ -42,7 +42,7 @@ When your Replit account is created, you will be added to the class "Team". You 
 
 In Team view, you will see a list of all coding assignments and their due dates. To accept an assignment, click on "Start project" to the right of the assignment's name. *Note that these Repls belong to your Team and are only visible here. They are also private, meaning that only the instructor, group members, and invited users can see them.*
 
-Each assignment will be built from the [IMS 322 template](https://replit.com/@sheffie/IMS322-Template) and include instructions and possibly comments or example code within the HTML, CSS, and/or JavaScript files. *Make sure that you carefully read all of these.*
+Each assignment will be built from the [IMS 322 template](https://replit.com/@sheffie/IMS322-Template) and include instructions and possibly comments or example code within the HTML, CSS, and/or JavaScript files. The Instructions tab should open automatically when you open an assignment Repl. If you ever lose it, you can always bring it back by adding a tab to the left-hand or right-hand pane and setting the tab view to "Instructions". *Make sure that you carefully read all comments and instructions before beginning.*
 
 When you finish working on an assignment, click the "Submit" button in the Repl workspace. This will timestamp your submission. You are welcome to go back and make changes after your initial submission, but keep in mind that resubmitting will change the timestamp, which may make the difference between submitting an assignment on time or late.
 <div style="display: flex; justify-content: center;"> 
