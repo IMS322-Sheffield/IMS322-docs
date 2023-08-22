@@ -13,7 +13,7 @@ nav_order: 2
   </figure>
 </div>
 ## Creating a New Repl
-Each individual project in Replit is called a "Repl".  To create a new Repl for practice or in-class exercises, simply go to the [IMS322 template](https://replit.com/@sheffie/IMS322-Template) and click the "Fork" button. Enter a new name for the Repl when prompted. This will create a new copy of the template in your account, which includes a customized `index.html` file and the `ims322-style.css` file (more on that [here](css-framework)).
+Each individual project in Replit is called a "Repl".  To create a new Repl for practice or in-class exercises, simply go to the [IMS322 template](https://replit.com/@sheffie/IMS322-Template) and click the "Fork" button. Enter a new name for the Repl when prompted. This will create a new copy of the template in your account, which includes a customized `index.html` file and the `ims322-style.css` file (more on that [here](css/css-framework)).
 
 If for some reason you want to make a fresh Repl without any of the customizations in the IMS322 template, click the "Create Repl" button in the upper-left corner of the Replit home page. When prompted, choose the "HTML, CSS, JS" template and enter a title.
 
