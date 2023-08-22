@@ -16,7 +16,7 @@ As noted on the [Review](/general/review#relative-units) and [Style Guide](/gene
 - `vh` - 1% of the viewport's (window) height.
 
 Try adjusting the different width and height properties in the `style.css` file of this example Repl to see how they affect the resulting size of each `<div>`.
-<iframe src="https://replit.com/@sheffie/IMS322-Relative-Units#style.css?embed=true" width="100%" height="480" style="border: none; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"></iframe>
+<iframe src="https://replit.com/@sheffie/IMS322-Relative-Units?embed=true" width="100%" height="480" style="border: none; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"></iframe>
 ## CSS variables
 
 ## :hover pseudo-class
