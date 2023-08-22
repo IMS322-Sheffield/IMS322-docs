@@ -13,4 +13,4 @@ This site consists of a collection of instructions, tips, and examples for IMS32
 <div style="display: flex; justify-content: center;">
 	<figure style="max-width: 320px"><img src="images/interaction-design.png" style="width: 100%"></figure>
 </div>
-Supplemental material is available on the [Additional Resources](general/resources) page and can be perused at your leisure if you are looking for additional help, review, or inspiration.
+Supplemental material is available on the [Additional Resources](resources) page and can be perused at your leisure if you are looking for additional help, review, or inspiration.
