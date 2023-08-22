@@ -9,3 +9,8 @@ url: https://sheffield-miami-fall2023.github.io/IMS322-docs/
 
 aux_links:
   # Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
+back_to_top: true
+back_to_top_text: "Back to top"
+
+footer_content: "Copyright &copy; 2023 <a href=\"https://www.ericsheffield.net\">Eric Sheffield</a>"
