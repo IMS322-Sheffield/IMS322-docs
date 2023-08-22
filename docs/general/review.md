@@ -12,12 +12,14 @@ Excerpted from Kevin Powell's ["The Only Tags You Need to Know (for now)"](the-o
 - Metadata tags: `<head>` `<title>` `<link>` `<body>`
 - Content tags: `<h1>`...`<h6>` `<p>` `<a>` `<ol>` `<ul>` `<li>` `<img>`
 - Layout tags: `<header>` `<main>` `<footer>` `<nav>` `<section>` `<div>`
+
 ### Attributes
 - alt: alternate text for an `<img>` tag
 - class: for use as a selector in CSS
 - href: url for `<a>` tags
 - id: for use as a query in JavaScript
 - src: path to image to be displayed for `<img>` tags
+
 ## CSS
 ### Flexbox
 Flexbox is used to create responsive layouts. It is typically best for 1-dimensional rows or columns, though slightly more complex layouts can be achieved by putting one flexbox inside another.
