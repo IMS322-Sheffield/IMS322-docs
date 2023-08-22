@@ -23,7 +23,7 @@ Use the following default filenames in your projects:
 - `style.css`
 - `script.js`
 
-If you need more files (e.g. multiple CSS files), it is acceptable to use other unique and descriptive names like `footer-style.css`. In fact, each Replit template in this class will include an `ims322-style.css` file in addition to the standard `style.css` file. You can read more about the purpose of `ims322-style.css` [here](css-framework).
+If you need more files (e.g. multiple CSS files), it is acceptable to use other unique and descriptive names like `footer-style.css`. In fact, each Replit template in this class will include an `ims322-style.css` file in addition to the standard `style.css` file. You can read more about the purpose of `ims322-style.css` [here](css-framework.md).
 ### Simplify image names and organization
 Rename image files for clarity and simplicity whenever necessary. For example, `dog.jpg` is much easier to type and identify than `neom-9E9NsEiUGxg-unsplash.jpg` or `IMG_1234.JPG`. Put all image files in an `images` folder in your Repl projects to help keep the file browser organized. Keep in mind, this means that the `src` attribute of your `<img>` elements will needs to include the folder with the name e.g. `images/my-image.jpg`.
 ### Media queries and display size targets
