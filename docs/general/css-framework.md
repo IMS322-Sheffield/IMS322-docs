@@ -5,7 +5,6 @@ parent: General
 nav_order: 4
 ---
 # IMS322 CSS Mini-Framework
-
 A CSS framework (e.g. [Tailwind CSS](https://tailwindcss.com) or [Bulma](https://bulma.io)) is a collection of several stylesheets (`.css` files) with predefined styles for page layouts, inputs and controls, fonts, color palettes, navigation, and more.
 
 While CSS frameworks can save time and effort for busy web developers, they are usually very "opinionated," meaning that they dictate much of the overall aesthetic and layout of sites. This isn't necessarily a bad thing, but it does mean that it can require additional effort to ensure that your project does not look too much like others built using the same utility. Additionally, it is beneficial to have a good grasp on CSS fundamentals before adopting a framework.

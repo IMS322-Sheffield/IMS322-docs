@@ -5,7 +5,6 @@ parent: General
 nav_order: 3
 ---
 # IMS322 Style Guide
-
 A coding style guide contains a set of rules and guidelines for writing code. Many organizations, large and small (e.g. Google, Airbnb, and more), adopt style guides to ensure that everyone adopts a similar style. Sloppy or inconsistent code might still technically work, but it can be difficult to read, share, or debug.
 
 You can think of a coding style guide kind of like a writing style guide that you might have used before when working on a research paper, like Chicago or MLA. These style guides aren't meant to address content so much as formatting and usage, which ensures legibility and consistency.
@@ -209,6 +208,15 @@ The only absolute unit recommended in this class is `px`, and only when it is th
 - If you want to have specific control over the roundness of box corners, set `border-radius` in `px`.
 
 You can read more about all valid absolute and relative units in this [MDN Web Docs reference](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units#numbers_lengths_and_percentages).
+### Be consistent with your color syntax
+Don't mix and match color syntax unless you have a good reason. For example, if you find a keyword color that you like, it would be fine to mix that with some complementary HEX code colors.
+- Example keyword: `DarkSalmon`
+- Example HEX code: `#E9967A`
+- Example RGB code: `rgb(233, 150, 122)`
+- Example HSL code: `15, 71%, 69%`
+
+There are multiple color helpers on the [Utilities](../utilities) page.
+
 ### Organize CSS with blank lines, indentation, and comments
 #### This:
 ```css
