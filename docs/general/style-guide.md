@@ -38,7 +38,9 @@ Ensure that all image files used in your projects are reasonably sized (not too 
 
 Modern high-DPI (dots per inch) displays actually scale content to provide sharper image quality when content is designed appropriately. For example, a website with a width of `800px` on a 13" MacBook Air actually fills `1600px` of the display — it uses 4 physical pixels (2 in width, 2 in height) to render every 1 pixel of content. If you have a 4K TV at home (3840 x 2160), a similar process occurs when it is upscaling 1920 x 1080 content (which is HD, but not 4K).
 
-You should consider how much of the browser window your images will cover (in pixels), and then *double that value* when cropping or downloading image files. For example, an image that will only take up half of the browser window at the most (e.g. one side of a two-column layout, `550px` of window space) should have an original width of approximately `1100px`. When downloading images from [Unsplash](https://unsplash.com), the most appropriate size for your layout will often be the small or medium option.
+You should consider how much of the browser window your images will cover (in pixels), and then *double that value* when cropping or downloading image files. For example, an image that will only take up half of the browser window at the most (e.g. one side of a two-column layout, `550px` of window space) should have an original width of approximately `1100px`.
+
+When downloading images from [Unsplash](https://unsplash.com), the most appropriate size for your layout will often be the small or medium option. If you do not have the option of downloading the appropriate size (or are starting with a photo from a different source that is too large), use a photo editing application or the online utility [Squoosh](https://squoosh.app) to resize it.
 
 To illustrate, the two images below are each inside of `<figure>` elements that have the property `max-width: 320px`. Even though they look identical, the one on the left has a much smaller original resolution and file size, which can result in faster loading times.
 <div style="display: flex; justify-content: space-evenly; gap: 1ch;">
@@ -178,7 +180,7 @@ Try to use the most appropriate [HTML tags](https://developer.mozilla.org/en-US/
 
 ---
 ## CSS
-Portions excerpted from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/CSS#mobile-first_media_queries).
+Portions excerpted from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/CSS).
 ### Plan your CSS
 Before diving in and writing any HTML or CSS, plan your styles carefully.
 - What general styles are going to be needed?
