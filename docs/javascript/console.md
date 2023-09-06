@@ -5,7 +5,7 @@ parent: JavaScript
 nav_order: 1
 ---
 # Using the Console
-The console is part of the developer tools in your browser. Although anyone can open the developer tools, the console is generally invisible to users and is primarily used to display messages for developers. These messages may include errors logged due to problems with your code, but you can also manually log helpful messages using the `console.log()` method.
+The console is part of the developer tools in your browser. Although anyone can open the developer tools, the console is generally invisible to users and is primarily used to display messages for developers. These messages might include errors logged due to problems with your code, but you can also manually log helpful messages using the `console.log()` method.
 
 Replit has its own simplified console within the Webview tab - it can be opened and closed by clicking the wrench icon. Try forking the embedded example below and changing the code in the `script.js` file - remember, you'll need to open the Replit console in order to see the results logged to the console.
 

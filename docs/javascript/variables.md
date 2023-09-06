@@ -11,7 +11,7 @@ A variable is a named container for data. The name of the container is up to you
 let myName = 'Eric'
 ```
 
-The purpose of variables may not be obvious at first, but a crucial part of interaction design is storing, gathering, and manipulating data. Variables will make this process much more practical and flexible.
+The purpose of variables may not be obvious at first, but a crucial part of interaction design and development is storing, gathering, and manipulating data. Variables make this process much more practical and flexible.
 
 Try forking the embedded example below and changing the code in the `script.js` file - remember, you'll need to open the Replit console in order to see the results logged to the console.
 
