@@ -2,7 +2,7 @@
 layout: default
 title: Basic Data Types
 parent: JavaScript
-nav_order: 2
+nav_order: 3
 ---
 # Basic Data Types
 Values stored in [variables](variables) are always of a certain *type*. Being aware of these types is important when developing your code as they determine what you can do with that data.

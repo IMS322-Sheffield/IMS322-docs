@@ -2,7 +2,7 @@
 layout: default
 title: Variables
 parent: JavaScript
-nav_order: 1
+nav_order: 2
 ---
 # Variables
 A variable is a named container for data. The name of the container is up to you (take a look at naming guidelines in the [IMS322 Style Guide](../general/style-guide)), but ideally it has some meaning that relates to the data being stored. To declare a variable, start with the keyword `let` and assign a starting value with `=`.
