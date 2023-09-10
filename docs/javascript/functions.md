@@ -137,10 +137,12 @@ let value1 = 40
 let value2 = 2
 
 function calculateSum() {
+  // this will work because value1 and value2 were
+  // defined outside of this block of code
   console.log(value1 + value2)
 }
 ```
 
-This relationship will likely become more apparent later in the semester when we start writing *conditionals* and *for loops* (which both use curly braces) inside of functions.
+This relationship will likely become clearer later in the semester when we start writing *conditionals* and *for loops* (which both use curly braces) inside of functions.
 
-The recommendation for this class is to try and minimize the use of outer variables as much as possible. This can often be accomplished with the proper us of function parameters and return.
+The recommendation for this class is to try and minimize the use of outer variables as much as possible. This can usually be accomplished with the proper us of function parameters and return.
