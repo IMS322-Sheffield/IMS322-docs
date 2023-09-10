@@ -57,7 +57,7 @@ function calculateAge(present, past) {
   console.log(currentAge)
 }
 ```
-The parameters defined in that function, `present` and `past`, act as local variables within the function - meaning that they are only accessible within the `calculateAge()` function (more on that [below](#Variable Scope)).
+The parameters defined in that function, `present` and `past`, act as local variables within the function - meaning that they are only accessible within the `calculateAge()` function (more on that [below](#variable-scope)).
 
 When calling the function, the values that you wish to use can be passed in as arguments:
 ```js
