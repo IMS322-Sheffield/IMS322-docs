@@ -46,7 +46,7 @@ Try forking the embedded example below and changing the code in the `script.js` 
 <iframe src="https://replit.com/@sheffie/IMS322-Function-Declaration?embed=true" width="100%" height="480" style="border: none; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"></iframe>
 
 ## Passing Parameters Into Functions
-In the previous example, our function declarations acted essentially as a shorthand for running multiple steps - each time `makeSauce()` was called, it performed 3 individual `console.log()` operations. It should be obvious that even if you only need to "make sauce" a few times, you will end up writing less code in the long run if you first take the time to declare the `makeSauce()` function.
+In the previous example, our function declaration acted essentially as a shorthand for running multiple steps - each time `makeSauce()` was called, it performed 3 individual `console.log()` operations. It should be obvious that even if you only need to "make sauce" a few times, you will end up writing less code in the long run if you first take the time to declare the `makeSauce()` function.
 
 One thing that can make your functions much more flexible and powerful is to define them with one or more *parameters*. Then, you can pass data into the function by providing them as *arguments* when the function is called.
 
