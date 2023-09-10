@@ -79,7 +79,7 @@ Try forking the embedded example below and changing the code in the `script.js` 
 ## Returning Data From Functions
 So far, we have logged results directly to the console from within the functions. There may be cases where you want to use the results somewhere else in your code. To do so, you can *return* data from a function - often, the easiest way to use the returned data is to assign it to a variable first.
 ```js
-let sum = calculateSum(4, 5);
+let sum = calculateSum(4, 5)
 
 console.log(sum)
 
