@@ -18,7 +18,7 @@ As with many coding scenarios, there are multiple ways to approach browser-based
 ### Declare a variable to reference the interactive element
 In addition to the [basic data types](basic data types) that we have already covered (number, string, boolean), a variable can also be assigned to an *HTML element*.
 ```js
-let myButton = document.getElementById("my-button")
+let myButton = document.getElementById('my-button')
 ```
 
 Notice that the name of this method is "getElementById" - this implies that the element we are trying to reference should have a matching *id* attribute.
