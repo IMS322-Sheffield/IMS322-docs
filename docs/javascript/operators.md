@@ -12,7 +12,7 @@ let y = x + 10
 
 Many other JavaScript operators are similarly self-explanatory, though there are a few useful ones that you may not be familiar with.
 ## Arithmetic Operators
-The standard arithmetic operators are addition (`+`), subtraction (`-`), multiplication (`*`), and division (`/`).
+The standard arithmetic operators are addition `+`, subtraction `-`, multiplication `*`, and division `/`.
 
 The following table lists some of the other useful arithmetic operators provided in JavaScript:
 
@@ -23,7 +23,7 @@ The following table lists some of the other useful arithmetic operators provided
 | `--` decrement | Subtracts one from its operand. | If `x` is 3, then `x++` sets `x` to 2. |
 
 ## Assignment Operators
-The simple assignment operator is equal (`=`), which assigns the value of its right operand to its left operand. That is, `let x = 7` sets the value of x to the number 7.
+The simple assignment operator is equal `=`, which assigns the value of its right operand to its left operand. That is, `let x = 7` sets the value of x to the number 7.
 
 The following table lists some of the useful compound assignment operators that act as shorthand for the operations in the right column:
 
