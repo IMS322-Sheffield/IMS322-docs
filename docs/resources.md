@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Additional Resources
-nav_order: 6
+nav_order: 7
 has_children: false
 permalink: /docs/resources
 ---
