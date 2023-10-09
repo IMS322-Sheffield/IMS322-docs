@@ -1,7 +1,7 @@
 ---
 layout: default
 parent: JavaScript
-title: DOM Manipulation 1
+title: DOM Manipulation 2
 nav_order: 11
 ---
 # DOM Manipulation 2 - Style Properties
