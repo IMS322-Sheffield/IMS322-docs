@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Miscellaneous Examples
-nav_order: 5
+nav_order: 6
 has_children: 
 permalink: /docs/misc examples
 ---
