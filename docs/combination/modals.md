@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: Compound
+parent: Combination
 title: Modals
 nav_order: 1
 ---
