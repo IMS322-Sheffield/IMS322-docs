@@ -10,7 +10,7 @@ If you recall from a previous reading, the DOM (Document Object Model) is "the d
 You can think of the structure of the DOM in terms of *parents* and *children* using a diagram like this:
 <div style="display: flex; justify-content: space-evenly; gap: 1ch;">
 	<figure style="max-width: 486px">
-		<img src="images/building-large.jpg" style="width: 100%">
+		<img src="images/pic_htmltree.gif" style="width: 100%">
 		<figcaption style="font-style: italic; text-align: center;">from W3 Schools</figcaption>
 	</figure>
 </div>
