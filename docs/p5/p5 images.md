@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Images in P5
-parent: p5
+parent: P5
 nav_order: 3
 ---
 # Images in P5

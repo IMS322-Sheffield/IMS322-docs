@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Rotation in P5
-parent: p5
+parent: P5
 nav_order: 2
 ---
 # Rotation in P5

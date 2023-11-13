@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Canvas Responsiveness
-parent: p5
+parent: P5
 nav_order: 1
 ---
 # Canvas Responsiveness
