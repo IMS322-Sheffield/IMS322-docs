@@ -14,9 +14,7 @@ Excerpted from MDN Web Docs ["Using CSS nesting"](https://developer.mozilla.org/
 You can think of CSS nesting as a way to limit the scope of styling to only the child elements of specific parents. This is already possible using combinators, but it can be much more practical with nesting.
 
 ```css
-/* Without nesting selector */
-/* Currently does not work in Safari or
-some recent versions of Chrome & Firefox! */
+/* Without nesting selector - currently does not work in Safari and some recent versions of Chrome & Firefox! */
 parent {
   /* parent styles */
   child {
@@ -24,8 +22,7 @@ parent {
   }
 }
 
-/* With nesting selector */
-/* Works in all modern browsers */
+/* With nesting selector - works in all modern browsers. */
 parent {
   /* parent styles */
   & child {
@@ -33,7 +30,7 @@ parent {
   }
 }
 
-/* the browser will parse both of the above as */
+/* The browser will parse both of the above as: */
 parent {
   /* parent styles */
 }
@@ -43,30 +40,4 @@ parent child {
 }
 ```
 
-```css
-/* Without nesting selector */
-parent {
-  /* parent styles */
-  child {
-    /* child of parent styles */
-  }
-}
-
-/* With nesting selector */
-parent {
-  /* parent styles */
-  & child {
-    /* child of parent styles */
-  }
-}
-
-/* the browser will parse both of these as */
-parent {
-  /* parent styles */
-}
-parent child {
-  /* child of parent styles */
-}
-
-```
 <iframe src="https://replit.com/@sheffie/IMS322-CSS-Nesting?embed=true" width="100%" height="480" style="border: none; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"></iframe>
