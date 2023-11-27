@@ -19,8 +19,11 @@ You can think of CSS nesting as a way to limit the scope of styling to only the 
 some recent versions of Chrome & Firefox! */
 parent {
   /* parent styles */
+  background-color: black;
+  
   child {
     /* child of parent styles */
+    background-color: white;
   }
 }
 
@@ -28,17 +31,23 @@ parent {
 /* Works in all modern browsers */
 parent {
   /* parent styles */
+  background-color: black;
+  
   & child {
     /* child of parent styles */
+    background-color: white;
   }
 }
 
 /* the browser will parse both of the above as */
 parent {
   /* parent styles */
+  background-color: black;
 }
+
 parent child {
   /* child of parent styles */
+  background-color: white;
 }
 ```
 <iframe src="https://replit.com/@sheffie/IMS322-CSS-Nesting?embed=true" width="100%" height="480" style="border: none; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"></iframe>
