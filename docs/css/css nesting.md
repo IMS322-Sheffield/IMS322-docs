@@ -1,3 +1,9 @@
+---
+nav_order: 3
+parent: CSS
+title: CSS Nesting
+layout: default
+---
 # CSS Nesting
 Excerpted from MDN Web Docs ["Using CSS nesting"](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting):
 
