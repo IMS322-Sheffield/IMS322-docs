@@ -15,24 +15,21 @@ This **IMS322 Style Guide** has been compiled from a collection of reputable sou
 
 ---
 ## General
-### Use lowercase file names
-As in `index.html`, NOT `Index.html` or `INDEX.html`.
+
 ### Default filenames
 Use the following default filenames in your projects:
 - `index.html`
 - `style.css`
 - `script.js`
-
-If you need more files (e.g. multiple CSS files), it is acceptable to use other unique and descriptive names like `footer-style.css`. In fact, each Replit template in this class will include an `ims322-style.css` file in addition to the standard `style.css` file. You can read more about the purpose of `ims322-style.css` [here](../css/css-framework).
 ### Simplify image names and organization
-Rename image files for clarity and simplicity whenever necessary. For example, `dog.jpg` is much easier to type and identify than `neom-9E9NsEiUGxg-unsplash.jpg` or `IMG_1234.JPG`. Put all image files in an `images` folder in your Repl projects to help keep the file browser organized. Keep in mind, this means that the `src` attribute of your `<img>` elements will needs to include the folder with the name e.g. `images/my-image.jpg`.
+Rename image files for clarity and simplicity whenever necessary. For example, `dog.jpg` is much easier to type and identify than `neom-9E9NsEiUGxg-unsplash.jpg` or `IMG_1234.JPG`. Put all image files in an `images` folder to help keep the file browser organized. Keep in mind, this means that the `src` attribute of your `<img>` elements will needs to include the folder with the name e.g. `images/my-image.jpg`.
 ### Media queries and display size targets
 We will be using the following screen widths for all projects (based on [MDN Web Docs recommendations](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/CSS#mobile-first_media_queries)):
 - 480px (mobile)
 - 800px (tablet, narrow laptop/desktop windows)
 - 1100px (wide laptop/desktop windows)
 
-These sizes are already pre-configured for you in the `ims322-style.css` file through media queries (for `480px` and `800px`) and the `body *` selector (for `1100px`, which applies to all children of the `<body>` element).
+These sizes are already pre-configured for you in every `style.css` file through media queries (for `480px` and `800px`).
 ### Image sizes
 Ensure that all image files used in your projects are reasonably sized (not too large, not too small) according to their intended use.
 
@@ -82,19 +79,6 @@ img {
 ---
 ## HTML
 Excerpted from [W3 Schools](https://www.w3schools.com/html/html5_syntax.asp) and [MDN Web Docs](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/HTML).
-### Use lowercase element names
-#### This:
-```html
-<div>
-  <p>This is a paragraph.</p>
-</div>
-```
-#### Not this:
-```html
-<DIV>
-  <P>This is a paragraph.</P>
-</DIV>
-```
 ### Do not use spaces around equals signs
 #### This:
 ```html
@@ -286,117 +270,117 @@ Online tutorials or examples may load JavaScript by putting `<script>` tags in t
 ### Declare variables with `let` and `const`
 Use the keywords `let` (for values that will change) and `const` (for values that will not change) when declaring variables.
 ```js
-let favoriteFruit = 'apple'
-const birthYear = 1986
+let favoriteFruit = "apple";
+const birthYear = 1986;
 ```
 Although it is still technically valid, do not use the outdated `var`.
-### Use single quotes for strings
+### Use double quotes for strings
 ```js
-console.log('hello')
+console.log("hello");
 ```
 ### Add a space after keywords and around operators and equals signs
 #### This:
 ```js
-const exampleNumber = 10
-const exampleOperation = exampleNumber * 2
+const exampleNumber = 10;
+const exampleOperation = exampleNumber * 2;
 
-let favoriteFruit = 'apple'
+let favoriteFruit = "apple";
 
-if (favoriteFruit === 'apple') {
-  console.log('I like apples, too!')
+if (favoriteFruit === "apple") {
+  console.log("I like apples, too!");
 }
 ```
 #### Not this:
 ```js
-const exampleNumber=10
-const exampleOperation=exampleNumber*2
+const exampleNumber=10;
+const exampleOperation=exampleNumber*2;
 
-let favoriteFruit='apple'
+let favoriteFruit="apple";
 
-if(favoriteFruit==='apple') {
-  console.log('I like apples, too!')
+if(favoriteFruit==="apple") {
+  console.log("I like apples, too!");
 }
 ```
 ### Be consistent with semicolons
 If you are familiar with other programming languages or have already learned some JavaScript, you might be used to seeing statements end with a semicolon.
 #### Semicolon example:
 ```js
-let favoriteFruit = 'apple';
+let favoriteFruit = "apple";
 ```
 However, JavaScript has not required semicolons for quite some time, and other modern popular languages like [Python](https://www.python.org), [Go](https://go.dev), and [Swift](https://developer.apple.com/swift/) do not use them at all. The important thing it to be consistent — either use them at the end of every statement, or don't use them at all.
 ### Do not use spaces inside parentheses
 #### This:
 ```js
-if (favoriteFruit === 'apple') {
-  console.log('I like apples, too!')
+if (favoriteFruit === "apple") {
+  console.log("I like apples, too!");
 }
 ```
 #### Not this:
 ```js
-if ( favoriteFruit === 'apple' ) {
-  console.log( 'I like apples, too!' )
+if ( favoriteFruit === "apple" ) {
+  console.log( "I like apples, too!" );
 }
 ```
 ### Always use `===` instead of `==` in `if` statements
 #### This:
 ```js
-if (name === 'John') {
+if (name === "John") {
   // stuff
 }
 ```
 #### Not this:
 ```js
-if (name == 'John') {
+if (name == "John") {
   // stuff
 }
 ```
 ### Naming variables and functions
 Variables and functions should be written using the *camelCase* convention in which each word (except the first) starts with a capital letter (without spaces or hyphens). 
 ```js
-const favoriteFruit = 'apple'
+const favoriteFruit = "apple";
 ```
 
 Write concise, searchable, and meaningful names. Only use common and easy-to remember abbreviations if a name becomes excessively long.
 ### Curly brace spacing
 When using curly braces (e.g. in `if` statements, `for` loops, and `function` declarations), the opening brace should be on the same line as the corresponding keyword. There should also be a space before the opening bracket.
 ```js
-if (favoriteFruit === 'apple') {
-  console.log('I like apples, too!')
+if (favoriteFruit === "apple") {
+  console.log("I like apples, too!");
 }
 
 for (const car of allCars) {
-  car.paint('red')
+  car.paint("red");
 }
 
 function declareLove() {
-  console.log('I love everything!')
+  console.log("I love everything!");
 }
 ```
 ### Organize JavaScript with blank lines, indentation, and comments
 #### This:
 ```js
 // This is a JavaScript comment
-if (favoriteFruit === 'apple') {
-  console.log('I like apples, too!')
+if (favoriteFruit === "apple") {
+  console.log("I like apples, too!");
 }
 
 for (const car of allCars) {
-  car.paint('red')
+  car.paint("red");
 }
 
 function declareLove() {
-  console.log('I love everything!')
+  console.log("I love everything!");
 }
 ```
 #### Not this:
 ```js
-if (favoriteFruit === 'apple') {
-console.log('I like apples, too!')
+if (favoriteFruit === "apple") {
+console.log("I like apples, too!");
 }
 for (const car of allCars) {
-car.paint('red')
+car.paint("red");
 }
 function declareLove() {
-console.log('I love everything!')
+console.log("I love everything!");
 }
 ```
