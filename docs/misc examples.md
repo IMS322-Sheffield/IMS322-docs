@@ -1,9 +1,6 @@
 ---
 layout: default
 title: Miscellaneous Examples
-nav_order: 7
-has_children: false
-permalink: /docs/misc examples
 ---
 # Miscellaneous Examples
 This page includes a collection of basic examples for specific scenarios that may prove useful but fall outside of the general course content. They will not be covered during class but can be adopted and modified for assignments as needed.

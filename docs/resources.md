@@ -1,9 +1,6 @@
 ---
 layout: default
 title: Additional Resources
-nav_order: 9
-has_children: false
-permalink: /docs/resources
 ---
 # Additional Resources
 If you are interested in additional help, review, or inspiration, you may find the links below to be useful.

@@ -1,9 +1,6 @@
 ---
 layout: default
 title: Utilities
-nav_order: 8
-has_children: false
-permalink: /docs/utilities
 ---
 # Utilities
 - [Color picker](https://g.co/kgs/aUsQzS): quick color reference and RGB to HEX converter
