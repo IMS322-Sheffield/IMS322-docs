@@ -42,5 +42,4 @@ It is unlikely that you will ever intentionally assign a value of "null" or "und
 	  <img src="images/values.png" style="width: 100%;">
 	  <figcaption style="font-style: italic; text-align: center;">Original image source unknown - duplicated from <a href="https://deepak7jha.medium.com/javascript-null-undefind-93b443cc924e">Medium</a></figcaption>
   </figure>
-</div>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+</div><script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
