@@ -17,5 +17,9 @@ myArray[0];
 would return the first value: `12`.
 
 Try forking the embedded example below and changing the values within the array and the index number in the `script.js` file.
-
-<iframe src="https://replit.com/@sheffie/IMS322-Arrays?embed=true" width="100%" height="480" style="border: none; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"></iframe>
+<p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="PoVMLNe" data-editable="true" data-user="ersheff" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/ersheff/pen/PoVMLNe">
+  Arrays (IMS322 Docs)</a> by Eric Sheffield (<a href="https://codepen.io/ersheff">@ersheff</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>

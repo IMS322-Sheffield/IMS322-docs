@@ -12,5 +12,9 @@ element.style.setProperty("property-name", "value");
 ```
 
 The `"property-name"` string can be any familiar CSS styling property, like `"background-color"` or `"font-size"`. For `"value"`, don't forget to include the units if needed. You may have to use string concatenation e.g. add `"px"` or `"rem"` to the end of a variable or number.
-
-<iframe src="https://replit.com/@sheffie/IMS322-DOM-Style-Properties?embed=true" width="100%" height="480" style="border: none; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"></iframe>
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="qBgevRR" data-editable="true" data-user="ersheff" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/ersheff/pen/qBgevRR">
+  Changing Style Properties (IMS322 Docs)</a> by Eric Sheffield (<a href="https://codepen.io/ersheff">@ersheff</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
