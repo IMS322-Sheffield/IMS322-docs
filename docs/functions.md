@@ -40,9 +40,11 @@ makeSauce();
 ```
 
 Try forking the embedded example below and changing the code in the `script.js` file - remember, you'll need to open the Replit console in order to see the results logged to the console.
-
-<iframe src="https://replit.com/@sheffie/IMS322-Function-Declaration?embed=true" width="100%" height="480" style="border: none; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"></iframe>
-
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="oNVvYBv" data-editable="true" data-user="ersheff" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/ersheff/pen/oNVvYBv">
+  Function Declaration (IMS322 Docs)</a> by Eric Sheffield (<a href="https://codepen.io/ersheff">@ersheff</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 ## Passing Parameters Into Functions
 In the previous example, our function declaration acted essentially as a shorthand for running multiple steps - each time `makeSauce()` was called, it performed 3 individual `console.log()` operations. It should be obvious that even if you only need to "make sauce" a few times, you will end up writing less code in the long run if you first take the time to declare the `makeSauce()` function.
 
@@ -71,9 +73,11 @@ calculateAge(currentYear, birthYear);
 ```
 
 Try forking the embedded example below and changing the code in the `script.js` file - remember, you'll need to open the Replit console in order to see the results logged to the console.
-
-<iframe src="https://replit.com/@sheffie/IMS322-Function-Parameters?embed=true" width="100%" height="480" style="border: none; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"></iframe>
-
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="jOJNVyY" data-editable="true" data-user="ersheff" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/ersheff/pen/jOJNVyY">
+  Function Parameters (IMS322 Docs)</a> by Eric Sheffield (<a href="https://codepen.io/ersheff">@ersheff</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 ## Returning Data From Functions
 So far, we have logged results directly to the console from within the functions. There may be cases where you want to use the results somewhere else in your code. To do so, you can *return* data from a function - often, the easiest way to use the returned data is to assign it to a variable first.
 ```js
@@ -85,9 +89,12 @@ function calculateSum(x, y) {
   return x + y;
 }
 ```
-
-<iframe src="https://replit.com/@sheffie/IMS322-Function-Return?embed=true" width="100%" height="480" style="border: none; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"></iframe>
-
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="JjzPbEq" data-editable="true" data-user="ersheff" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/ersheff/pen/JjzPbEq">
+  Function Return (IMS322 Docs)</a> by Eric Sheffield (<a href="https://codepen.io/ersheff">@ersheff</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 ## Variable Scope
 It was mentioned above that the parameters in your function declaration act as *local* variables, which means they can only be accessed from certain parts of the code. Specifically, a variable is only available *within the block of code it was declared*. By "block of code," we mean the contents inside curly braces.
 

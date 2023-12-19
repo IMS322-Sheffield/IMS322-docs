@@ -44,5 +44,9 @@ console.log("Welcome, " + myName + ".");
 ```
 
 Try forking the embedded example below and changing the code in the `script.js` file to practice with operators - remember, you'll need to open the Replit console in order to see the results logged to the console.
-
-<iframe src="https://replit.com/@sheffie/IMS322-Operators?embed=true" width="100%" height="480" style="border: none; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"></iframe>
+<p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="WNmeoZX" data-editable="true" data-user="ersheff" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/ersheff/pen/WNmeoZX">
+  Operators (IMS322 Docs)</a> by Eric Sheffield (<a href="https://codepen.io/ersheff">@ersheff</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>

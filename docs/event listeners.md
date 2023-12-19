@@ -45,5 +45,9 @@ myButton.addEventListener("click", wasClicked);
 Notice that this statement begins with the variable name that we created in step 1. The *addEventListener* method is given 2 arguments: the event type to listen for (`"click"`), followed by the name of the function we created in step 2 (wasClicked).
 
 Try forking the embedded example below and clicking the button - remember, you'll need to open the Replit console in order to see the results logged to the console.
-
-<iframe src="https://replit.com/@sheffie/IMS322-Event-Listener?embed=true" width="100%" height="480" style="border: none; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"></iframe>
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="qBvWqaG" data-editable="true" data-user="ersheff" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/ersheff/pen/qBvWqaG">
+  Event Listener (IMS322 Docs)</a> by Eric Sheffield (<a href="https://codepen.io/ersheff">@ersheff</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>

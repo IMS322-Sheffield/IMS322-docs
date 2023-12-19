@@ -23,9 +23,11 @@ Starting from the `<body>` element, there are 2 child element in the `<body>`: a
 ```
 
 Take a look at the following example - how would you describe the structure in terms of *parents* and *children*? You can probably make some guess just by looking at the page, but you'll need to open the inspector or look at the HTML to confirm.
-
-<iframe src="https://replit.com/@sheffie/IMS322-Parent-Child?embed=true" width="100%" height="480" style="border: none; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"></iframe>
-
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="XWGrjOq" data-editable="true" data-user="ersheff" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/ersheff/pen/XWGrjOq">
+  Parent-Child (IMS322 Docs)</a> by Eric Sheffield (<a href="https://codepen.io/ersheff">@ersheff</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 Each cookie image `<img>` has a `<figcaption>` sibling, both of which are children of a `<figure>` element, which are in turn children of the main `<div>` flex container. Or, looking at it from the other direction, the main `<div>` flex container is the parent element containing 3 `<figure>` children, which in turn each contain one `<img>` child element and one `<figcaption>` child element. 
 ## Creating and Appending Elements
 If you were given a large collection of images in a folder to display in a gallery, you would likely painstakingly manually create flexboxes, `<figure>` elements, and `<img>` elements in your HTML. But what if you were running a baking website that featured a different collection and quantity of cookie recipes each week? Is there a way to automatically generate the HTML if you are given the necessary data?
@@ -52,5 +54,9 @@ cookieCaption.innerText = cookie1.captionText; // sets text to "Cookie 1"
 ```
 
 Then, I can use the `appendChild()` method to place the child elements in the `<div>` flex container parent (see example below). It may not seem like much now, but with the addition of `for` loops and the right workflow, an approach like this could help automate the process and save a lot of time in the long run.
-
-<iframe src="https://replit.com/@sheffie/IMS322-Creating-and-Appending-Elements?embed=true" width="100%" height="480" style="border: none; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"></iframe>
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="mdobOPe" data-editable="true" data-user="ersheff" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/ersheff/pen/mdobOPe">
+  Creating and Appending Elements (IMS322 Docs)</a> by Eric Sheffield (<a href="https://codepen.io/ersheff">@ersheff</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>

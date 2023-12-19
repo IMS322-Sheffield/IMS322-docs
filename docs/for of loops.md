@@ -26,5 +26,9 @@ In this case, the source of the sequence is the variable *myArray*. The `for of`
 Why did we call the temporary variable *m*? Any name can be used, though it is common to see the first letter of the name of the array used as the name for the temporary variable.
 
 Try forking the embedded example below and changing the values within the array in the `script.js` file. Observe the changes in the console.
-
-<iframe src="https://replit.com/@sheffie/IMS322-For-Of-Loops?embed=true" width="100%" height="480" style="border: none; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"></iframe>
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="poYzNNa" data-editable="true" data-user="ersheff" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/ersheff/pen/poYzNNa">
+  For Of Loops (IMS322 Docs)</a> by Eric Sheffield (<a href="https://codepen.io/ersheff">@ersheff</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>

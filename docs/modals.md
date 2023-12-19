@@ -15,5 +15,9 @@ Incorporating modals became much easier with the addition of the `<dialog>` elem
 - If you have a `<form>` in your `<dialog>` to collect data from the user, you can set the method attribute of your form to `dialog`. This will cause the form to close the dialog when it is submitted. You can also use the `.preventDefault()` method to perform input validation checks before allowing the modal to close automatically when the Submit button is pressed.
 
 All of the concepts listed above are demonstrated in the example embedded below. Try forking the embedded example below and changing the code in the `index.html` and `script.js` files.
-
-<iframe src="https://replit.com/@sheffie/IMS322-Modals?embed=true" width="100%" height="480" style="border: none; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"></iframe>
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="vYPByZL" data-editable="true" data-user="ersheff" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/ersheff/pen/vYPByZL">
+  Modals (IMS322 Docs)</a> by Eric Sheffield (<a href="https://codepen.io/ersheff">@ersheff</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
