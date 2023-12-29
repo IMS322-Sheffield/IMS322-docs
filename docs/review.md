@@ -10,6 +10,7 @@ Excerpted from Kevin Powell's ["The Only Tags You Need to Know (for now)"](the-o
 - Metadata tags: `<html>` `<head>` `<title>` `<link>` `<body>`
 - Content tags: `<h1>`...`<h6>` `<p>` `<a>` `<ol>` `<ul>` `<li>` `<img>`
 - Layout tags: `<header>` `<main>` `<footer>` `<nav>` `<section>` `<div>`
+
 #### Semantic HTML
 [Semantic HTML](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html) tags describe meaning, contextualizing the contents of the element. They also improve accessibility for people that use screen readers. Try to use the most appropriate semantic tags whenever possible.
 ### Attributes
@@ -33,10 +34,12 @@ The CSS Box Model describes how margin, border, padding, and content relate to e
 - What web browsers are most commonly used?
 - Why might someone choose one over another?
 - Who are the developers of the most popular browsers?
+
 ### Developer Tools
 - Where are the Developer Tools in your browser?
 - What is their purpose?
 - How can they help you with your projects?
+
 ### Responsive Design Mode
 - Where is the Responsive Design Mode in your browser?
 - How does it work?
