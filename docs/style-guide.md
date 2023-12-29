@@ -3,88 +3,44 @@ layout: default
 title: Style Guide
 ---
 # IMS322 Style Guide
-A coding style guide contains a set of rules and guidelines for writing code. Many organizations, large and small (e.g. Google, Airbnb, and more), adopt style guides to ensure that everyone adopts a similar style. Sloppy or inconsistent code might still technically work, but it can be difficult to read, share, or debug.
+Many companies, large and small (e.g. Google, Airbnb, and more), adopt style guides to ensure that everyone writes similar well-organized code. Sloppy or inconsistent code might still technically work, but it can be difficult to read, share, or debug.
 
-You can think of a coding style guide kind of like a writing style guide that you might have used before when working on a research paper, like Chicago or MLA. These style guides aren't meant to address content so much as formatting and usage, which ensures legibility and consistency.
+The **IMS322 Style Guide** has been assembled from excerpts from reputable sources. You should reference this guide regularly whenever working on class exercises or assignments until it becomes second nature. Although it includes many widely adopted conventions, it is by no means intended to be the "best" or "correct" approach — after taking this class, you might consider other coding styles based on personal or professional preference.
 
-This **IMS322 Style Guide** has been compiled from a collection of reputable sources to help address the styling issues most relevant to this class. You should reference this guide regularly whenever working on exercises or assignments until it becomes second nature. Although there are some widely adopted conventions in this guide, it is by no means intended to be the "best" or "correct" approach — after taking this class, you might consider other coding styles based on personal or professional preference.
-
-*Note that some of the points awarded on each coding assignment will be based on how well you adhere to this style guide.*
+Some of the points awarded on each coding assignment will be based on how well you adhere to this guide. However, many of the style conventions below can be applied automatically if you use the formatting tools in CodePen and Codespaces (notable exceptions being image file, class, id, variable, and function naming and image file organization).
 
 ---
 ## General
 
 ### Default filenames
-Use the following default filenames in your projects:
 - `index.html`
 - `style.css`
 - `script.js`
 ### Simplify image names and organization
-Rename image files for clarity and simplicity whenever necessary. For example, `dog.jpg` is much easier to type and identify than `neom-9E9NsEiUGxg-unsplash.jpg` or `IMG_1234.JPG`. Put all image files in an `images` folder to help keep the file browser organized. Keep in mind, this means that the `src` attribute of your `<img>` elements will needs to include the folder with the name e.g. `images/my-image.jpg`.
+Rename long or cryptic image files whenever necessary. For example, `dog.webp` is much easier to type and identify than `neom-9E9NsEiUGxg-unsplash.webp`.
+
+When working with multiple image files, put them all in an "images" folder to help keep the file browser organized. Keep in mind, this means that the `src` attribute of your `<img>` elements will needs to include the folder as part of the file name e.g. `images/dog.webp`.
 ### Media queries and display size targets
-We will be using the following screen widths for all projects (based on [MDN Web Docs recommendations](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/CSS#mobile-first_media_queries)):
+Your project layouts will need to work well at the following window widths (based on [MDN Web Docs recommendations](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/CSS#mobile-first_media_queries)):
 - 480px (mobile)
 - 800px (tablet, narrow laptop/desktop windows)
 - 1100px (wide laptop/desktop windows)
 
-These sizes are already pre-configured for you in every `style.css` file through media queries (for `480px` and `800px`).
-### Image sizes
-Ensure that all image files used in your projects are reasonably sized (not too large, not too small) according to their intended use.
+Media queries for `480px` and `800px` widths will be pre-configured for you in every project's `style.css` file to use as needed.
 
-Modern high-DPI (dots per inch) displays actually scale content to provide sharper image quality when content is designed appropriately. For example, a website with a width of `800px` on a 13" MacBook Air actually fills `1600px` of the display — it uses 4 physical pixels (2 in width, 2 in height) to render every 1 pixel of content. If you have a 4K TV at home (3840 x 2160), a similar process occurs when it is upscaling 1920 x 1080 content (which is HD, but not 4K).
-
-You should consider how much of the browser window your images will cover (in pixels), and then *double that value* when cropping or downloading image files. For example, an image that will only take up half of the browser window at the most (e.g. one side of a two-column layout, `550px` of window space) should have an original width of approximately `1100px`.
-
-When downloading images from [Unsplash](https://unsplash.com), the most appropriate size for your layout will often be the small or medium option. If you do not have the option of downloading the appropriate size (or are starting with a photo from a different source that is too large), use a photo editing application or the online utility [Squoosh](https://squoosh.app) to resize it.
-
-To illustrate, the two images below are each inside of `<figure>` elements that have the property `max-width: 320px`. Even though they look identical, the one on the left has a much smaller original resolution and file size, which can result in faster loading times.
-<div style="display: flex; justify-content: space-evenly; gap: 1ch;">
-	<figure style="max-width: 320px">
-		<img src="images/building-small.jpg" style="width: 100%">
-		<figcaption style="font-style: italic; text-align: center;">640X960 original resolution (223KB)</figcaption>
-	</figure>
-	<figure style="max-width: 320px">
-		<img src="images/building-large.jpg" style="width: 100%">
-		<figcaption style="font-style: italic; text-align: center;">2400X3600 original resolution (2MB)</figcaption>
-	</figure>
-</div>
-### Image containers and aspect ratios
-It is highly recommended to wrap all images in a `<div>` (when it is part of another component, like the logo in a header) or `<figure>` (when the image is self-contained) element. This will generally make it much easier to attain the desired image size and position within your layout without distorting the aspect ratio. All `<img>` elements have the `width: 100%` property applied by default in `ims322-style.css`, which means that they will automatically take on the width of their parent container without becoming stretched or squished. As an added bonus, the `<figcaption>` element can be used inside of a `<figure>` element to easily add captions to your images if desired.
-#### Example HTML
-```html
-<figure class="ostrich-container">
-  <img src="images/ostrich.jpg" alt="ostrich">
-  <figcaption>An ostrich, yeah?</figcaption>
-</figure>
-```
-#### Example CSS
-```css
-img {
-  width: 100%;
-}
-
-.ostrich-container {
-  max-width: 320px;
-}
-```
-#### Results
-<div style="display: flex; justify-content: center;"> 
-  <figure style="max-width: 320px;">
-	<img src="images/ostrich.jpg" style="width: 100%;">
-	<figcaption style="font-style: italic; text-align: center;">An ostrich, yeah?</figcaption>
-  </figure>
-</div>
 ---
 ## HTML
 Excerpted from [W3 Schools](https://www.w3schools.com/html/html5_syntax.asp) and [MDN Web Docs](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/HTML).
-### Do not use spaces around equals signs
-#### This:
+### Do not use spaces around equals signs for attributes
 ```html
-<img src="headshot.jpg" alt="Headshot">
+<img src="headshot.webp" alt="Headshot">
 ```
-#### Not this:
+### Naming classes and IDs
+Class and ID attributes should always be written using the the "kebab-case" convention in which lowercase words are separated by hyphens. Write concise, searchable, and meaningful names. Only use common and easy-to remember abbreviations when a name becomes excessively long.
 ```html
-<img src = "headshot.jpg" alt = "Headshot">
+<p class="kebab-case" id="kebab-case">
+  Blah blah blah.
+</p>
 ```
 ### Organize HTML with blank lines, indentation, and comments
 #### This:
@@ -101,7 +57,7 @@ Excerpted from [W3 Schools](https://www.w3schools.com/html/html5_syntax.asp) and
   </main>
 
   <footer>
-    <p>Did you like my content?</p>
+    <p>Like and subscribe!</p>
   </footer>
 
 </body>
@@ -117,69 +73,15 @@ Excerpted from [W3 Schools](https://www.w3schools.com/html/html5_syntax.asp) and
 <p>Tons of great content here.</p>
 </main>
 <footer>
-<p>Did you like my content?</p>
+<p>Like and subscribe!</p>
 </footer>
 </body>
 ```
-### Ensure there is always only one of each `<html>`, `<head>`, `<title>`, and `<body>` elements
-The template in Replit will automatically include one of each of these elements for you. Be careful not to accidentally duplicate or break these elements when editing or copy-pasting.
-```html
-<!DOCTYPE html>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>IMS322 Template</title>
-  <link href="ims322-style.css" rel="stylesheet" type="text/css" />
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <script src="script.js" defer></script>
-</head>
-
-<body>
-  <p>Stuff stuff stuff.</p>
-</body>
-
-</html>
-```
-### Naming classes and IDs
-Class and ID attributes should always be written using the the *kebab-case* convention in which lowercase words are separated by hyphens.
-```html
-<p class="kebab-case-class" id="kebab-case-id">
-  Blah blah blah.
-</p>
-```
-Write concise, searchable, and meaningful names. Only use common and easy-to remember abbreviations if a name becomes excessively long.
-### Use semantic HTML
-A [semantic HTML](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html) element describes its meaning, contextualizing its contents for the developer, browser, and user. It also improves accessibility for people that use screen readers. Some examples of common semantic HTML elements are:
-- `<h1>`, `<h2>`, `<h3>`, etc.
-- `<header>`
-- `<main>`
-- `<nav>`
-- `<section>`
-
-Try to use the most appropriate [HTML tags](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) whenever possible. If your content does not obviously coincide with a semantic element, the non-semantic element like `<div>` is appropriate.
 
 ---
 ## CSS
 Portions excerpted from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/CSS).
-### Plan your CSS
-Before diving in and writing any HTML or CSS, plan your styles carefully.
-- What general styles are going to be needed?
-- What different layouts do you need to create?
-- Are they be reusable?
-
-It can be very helpful to start with a basic sketch to help answer some of these questions — especially for identifying things like natural rows and columns or groups of visual elements.
-<div style="display: flex; justify-content: center;"> 
-  <figure style="max-width: 640px;">
-    <img src="images/miamioh-layout.jpg" style="width: 100%;">
-    <figcaption style="font-style: italic; text-align: center;">Dashed lines added to highlight the row and column arrangement</figcaption>
-  </figure>
-</div>
-If you keep finding yourself writing styles and then cancelling them again a few rules down, you probably need to rethink your strategy. *This is especially important for responsive layouts like Flexbox.*
-### Use flexible and relative units whenever possible
-For maximum flexibility over the widest possible range of devices, it is a good idea to set size properties using relative units.
-
+### Use relative units by default
 Recommended relative units:
 - `%` - Percentage relative to the parent element. 
 - `ch` - The width of the number "0" of the element's font.
@@ -187,20 +89,37 @@ Recommended relative units:
 - `vw` - 1% of the viewport's (window) width.
 - `vh` - 1% of the viewport's (window) height.
 
-The only absolute unit recommended in this class is `px`, and only when it is the best fit. Some examples:
-- If you want to ensure that an image never displays larger than its original resolution, set the `max-width` of its parent element in `px`.
+In some cases, you may still find that the absolute unit `px` is the best fit. Some examples:
+- If you want to ensure that a small image in a flexible container never stretches beyond its original resolution, set a `max-width` property in `px`.
 - If you want to have specific control over the roundness of box corners, set `border-radius` in `px`.
 
-You can read more about all valid absolute and relative units in this [MDN Web Docs reference](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units#numbers_lengths_and_percentages).
-### Be consistent with your color syntax
-Don't mix and match color syntax unless you have a good reason. For example, if you find a keyword color that you like, it would be fine to mix that with some complementary HEX code colors.
-- Example keyword: `DarkSalmon`
+You can read more about all the valid absolute and relative units in this [MDN Web Docs reference](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units#numbers_lengths_and_percentages).
+### Use HEX or RGB color syntax
+This will help ensure consistency with your wireframe application colors.
 - Example HEX code: `#E9967A`
 - Example RGB code: `rgb(233, 150, 122)`
-- Example HSL code: `15, 71%, 69%`
 
-There are multiple color helpers on the [Utilities](../utilities) page.
+There are multiple color helpers on the [Utilities](utilities.md) page.
+### Do not style with ID selectors
+Use element and class selectors.
+#### This:
+```css
+h2 {
+  color: blue;
+}
 
+.important-text {
+  color: red;
+  font-weight: bold;
+}
+```
+#### Not this:
+```css
+#important-text {
+  color: red;
+  font-weight: bold;
+}
+```
 ### Organize CSS with blank lines, indentation, and comments
 #### This:
 ```css
@@ -225,129 +144,61 @@ text-shadow: 1px 1px 2px red;
 font-size: 2rem;
 }
 ```
-### Style with class selectors
-Use class selectors for styling whenever possible. Element selectors should only be used to apply a style property globally (e.g. you want *all* `h2` elements to be blue). Do not use ID selectors in your CSS.
-#### Example HTML:
-```html
-<h2>This is a level 2 heading.</h2>
-
-<p class="warning-text">
-  This is warning text for really important stuff.
-</p>
-
-```
-#### Example CSS:
-```css
-/* An element selector, applies to all h2 elements */
-h2 {
-  color: blue;
-}
-
-/* A class selector */
-.warning-text {
-  color: red;
-  font-weight: bold;
-}
-```
 
 ---
 ## JavaScript
 Excerpted from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/JavaScript) and [JavaScript Standard Style](https://standardjs.com/rules.html).
 ### Loading JavaScript in HTML
-Online tutorials or examples may load JavaScript by putting `<script>` tags in the `<body>` element. While that is a valid approach, always put your `<script>` tags in the `<head>` element with the added `defer` keyword.
+Always put your `<script>` tags in the `<head>` element with the added `defer` keyword (not required when working in CodePen).
 ```html
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>IMS322 Template</title>
-  <link href="ims322-style.css" rel="stylesheet" type="text/css" />
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
   <script src="script.js" defer></script>
+  <title>IMS322</title>
 </head>
 ```
-### Declare variables with `let` and `const`
-Use the keywords `let` (for values that will change) and `const` (for values that will not change) when declaring variables.
+### Declare variables with `let` and `const`, not `var`
+Use the keywords `let` (for values that will change) and `const` (for values that will not change) when declaring variables. Although it is still technically valid, do not use the outdated `var`.
 ```js
 let favoriteFruit = "apple";
 const birthYear = 1986;
 ```
-Although it is still technically valid, do not use the outdated `var`.
+### Use semicolons at the end of every statement
+```js
+let favoriteFruit = "apple";
+```
 ### Use double quotes for strings
 ```js
 console.log("hello");
 ```
-### Add a space after keywords and around operators and equals signs
-#### This:
+### Add a space around operators and equals signs
 ```js
-const exampleNumber = 10;
 const exampleOperation = exampleNumber * 2;
-
-let favoriteFruit = "apple";
-
-if (favoriteFruit === "apple") {
-  console.log("I like apples, too!");
-}
 ```
-#### Not this:
-```js
-const exampleNumber=10;
-const exampleOperation=exampleNumber*2;
-
-let favoriteFruit="apple";
-
-if(favoriteFruit==="apple") {
-  console.log("I like apples, too!");
-}
-```
-### Be consistent with semicolons
-If you are familiar with other programming languages or have already learned some JavaScript, you might be used to seeing statements end with a semicolon.
-#### Semicolon example:
-```js
-let favoriteFruit = "apple";
-```
-However, JavaScript has not required semicolons for quite some time, and other modern popular languages like [Python](https://www.python.org), [Go](https://go.dev), and [Swift](https://developer.apple.com/swift/) do not use them at all. The important thing it to be consistent — either use them at the end of every statement, or don't use them at all.
-### Do not use spaces inside parentheses
-#### This:
+### Do not use extra spaces inside parentheses
 ```js
 if (favoriteFruit === "apple") {
   console.log("I like apples, too!");
-}
-```
-#### Not this:
-```js
-if ( favoriteFruit === "apple" ) {
-  console.log( "I like apples, too!" );
 }
 ```
 ### Always use `===` instead of `==` in `if` statements
-#### This:
 ```js
 if (name === "John") {
   // stuff
 }
 ```
-#### Not this:
-```js
-if (name == "John") {
-  // stuff
-}
-```
 ### Naming variables and functions
-Variables and functions should be written using the *camelCase* convention in which each word (except the first) starts with a capital letter (without spaces or hyphens). 
+Variables and functions should be written using the "camelCase" convention in which each word (except the first) starts with a capital letter (without spaces or hyphens). Write concise, searchable, and meaningful names. Only use common and easy-to remember abbreviations if a name becomes excessively long.
 ```js
 const favoriteFruit = "apple";
 ```
-
-Write concise, searchable, and meaningful names. Only use common and easy-to remember abbreviations if a name becomes excessively long.
 ### Curly brace spacing
-When using curly braces (e.g. in `if` statements, `for` loops, and `function` declarations), the opening brace should be on the same line as the corresponding keyword. There should also be a space before the opening bracket.
+When using curly braces (e.g. in `if` statements and `function` declarations), the opening brace should be on the same line as the corresponding keyword. There should also be a space before the opening bracket.
 ```js
 if (favoriteFruit === "apple") {
   console.log("I like apples, too!");
-}
-
-for (const car of allCars) {
-  car.paint("red");
 }
 
 function declareLove() {
@@ -362,10 +213,6 @@ if (favoriteFruit === "apple") {
   console.log("I like apples, too!");
 }
 
-for (const car of allCars) {
-  car.paint("red");
-}
-
 function declareLove() {
   console.log("I love everything!");
 }
@@ -374,9 +221,6 @@ function declareLove() {
 ```js
 if (favoriteFruit === "apple") {
 console.log("I like apples, too!");
-}
-for (const car of allCars) {
-car.paint("red");
 }
 function declareLove() {
 console.log("I love everything!");

@@ -3,13 +3,19 @@ layout: default
 title: Utilities
 ---
 # Utilities
-- [Color picker](https://g.co/kgs/aUsQzS): quick color reference and RGB to HEX converter
-- [Windows Color Picker utility](https://learn.microsoft.com/en-us/windows/powertoys/color-picker): native Windows utility to find values for any onscreen color
-- [Mac Digital Color Meter](https://support.apple.com/en-ca/guide/digital-color-meter/welcome/mac): native Mac utility to find values for any onscreen color
-- [Squoosh](https://squoosh.app): image resizing and compression
-- [Unsplash](https://unsplash.com): source for high-quality free stock images
-- [Audio Editor Online](https://editor.audio/): simple audio editing and conversion
-- CSS Generators: tools that help generate CSS code to achieve a specific look
-  - [Box Shadows](https://www.cssportal.com/css3-box-shadow-generator/)
-  - [Gradients](https://cssgradient.io/)
-  - [Slider (input type="range") Styling](https://www.cssportal.com/style-input-range/)
+## Color
+- [Color picker](https://g.co/kgs/aUsQzS): Quick color reference and RGB/HEX converter.
+- [Mac Digital Color Meter](https://support.apple.com/en-ca/guide/digital-color-meter/welcome/mac): Mac application to find values for any onscreen color.
+- [Windows Color Picker utility](https://learn.microsoft.com/en-us/windows/powertoys/color-picker): Windows application to find values for any onscreen color.
+## Images
+- [Lorem Picsum](https://picsum.photos): Source for hosted stock images (primarily for use with CodePen).
+- [Squoosh](https://squoosh.app): Image resizing, cropping, and compression.
+- [Unsplash](https://unsplash.com): Source to download free high-quality stock images.
+## CSS Generators
+Tools that help generate complicated CSS code to achieve a specific look.
+  - [Box Shadow](https://www.cssportal.com/css3-box-shadow-generator/)
+  - [Gradient](https://www.cssportal.com/css-gradient-generator/)
+  - [Slider](https://www.cssportal.com/style-input-range/)
+  - [More at CSS Portal](https://www.cssportal.com/css-generators.php)
+## Miscellaneous
+- [AudioMass](https://audiomass.co): Simple audio editing and conversion.
