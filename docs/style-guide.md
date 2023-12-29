@@ -16,6 +16,7 @@ Some of the points awarded on each coding assignment will be based on how well y
 - `index.html`
 - `style.css`
 - `script.js`
+
 ### Simplify image names and organization
 Rename long or cryptic image files whenever necessary. For example, `dog.webp` is much easier to type and identify than `neom-9E9NsEiUGxg-unsplash.webp`.
 
