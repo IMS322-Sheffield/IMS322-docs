@@ -16,6 +16,7 @@ For resolution, you should consider how much of the browser window your images w
 There are several different types of image compression suitable for the web. For simplicity, all images used in your projects should be in the "WebP" format.
 - When using images from [Lorem Picsum](https://picsum.photos), simply add `.webp` to the end of the URL.
 - When using images downloaded from [Unsplash](https://unsplash.com), another stock photo site, or your own original image files, choose "WebP" when compressing your files using [Squoosh](https://squoosh.app) or your preferred photo editing application before incorporating them into your project.
+
 ## Image Containers
 It is highly recommended to wrap all `<img>` elements in a parent `<div>` or, if captions are needed, `<figure>` element (with `<figcaption>` tags). This will generally make it easier to attain the desired size, position, and aspect ratio in flexible layouts. Additionally, while it might not suit every need, setting `max-width: 100%` and `max-height: 100vh` as the default properties for all images will probably work best for most situations.
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="KKEpJzp" data-editable="true" data-user="ersheff" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
