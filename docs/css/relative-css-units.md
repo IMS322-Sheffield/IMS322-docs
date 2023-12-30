@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Relative CSS Units
+parent: CSS
 ---
 # Relative CSS Units
 Using relative units by default is recommended in the [IMS322 Style Guide](style-guide.md#use-relative-units-by-default) because they will often make layout spacing and element sizing more consistent and flexible. In the embedded example below, each `<p>` has been sized using one of the relative units recommended for this class:

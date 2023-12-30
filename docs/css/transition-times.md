@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Transition Times
+parent: CSS
 ---
 # Transition Times
 Setting a transition time (in seconds) causes changes between two states to happen gradually. The example below demonstrates a transition time using the `:hover` pseudo-class to initiate a change, but these changes can also originate from JavaScript.

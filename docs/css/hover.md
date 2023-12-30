@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Hover
+parent: CSS
 ---
 # Hover
 A "pseudo-class" keyword is added to the end of a selector to specify different styling properties for a special state of the selected elements. The keyword that you will likely use most often is `:hover`, which is used to define the element's appearance when hovering your cursor over it.
