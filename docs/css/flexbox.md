@@ -17,7 +17,6 @@ From [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/):
 		<img src="../images/02-items.svg" style="width: 100%">
 	</figure>
 </div>
-
 The CSS Tricks article linked above is an excellent reference for all things flexbox. From that article, there are 7 key properties that can be used to accomplish most layout goals:
 - Container properties:
   - `display` - Set to `flex` to define a flex container (create a flexbox).
