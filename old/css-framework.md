@@ -1,7 +1,6 @@
 ---
 layout: default
 title: CSS Framework
-parent: CSS
 nav_order: 1
 ---
 # IMS322 CSS Mini-Framework
