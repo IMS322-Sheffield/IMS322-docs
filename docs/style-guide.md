@@ -18,6 +18,18 @@ Some of the points awarded on each coding assignment will be based on how well y
 - `style.css`
 - `script.js`
 
+### Fonts
+Choose only from the following [web safe fonts](https://www.w3schools.com/cssref/css_websafe_fonts.php) or a selection from [Google Fonts](https://fonts.google.com/) :
+- Arial (sans-serif)
+- Verdana (sans-serif)
+- Tahoma (sans-serif)
+- Trebuchet MS (sans-serif)
+- Times New Roman (serif)
+- Georgia (serif)
+- Courier New (monospace)
+- Brush Script MT (cursive)
+
+The web safe fonts listed above should already be installed on your computer, but you may need to download and install fonts from Google Fonts to use in your wireframing application. Always include [fallback fonts](https://www.w3schools.com/cssref/css_fonts_fallbacks.php) in your CSS.
 ### Simplify image names and organization
 Rename long or cryptic image files whenever necessary. For example, `dog.webp` is much easier to type and identify than `neom-9E9NsEiUGxg-unsplash.webp`.
 
