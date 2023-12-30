@@ -2,6 +2,7 @@
 layout: default
 title: CSS Variables
 parent: CSS
+nav_order: 2
 ---
 # CSS Variables
 You can declare CSS variables (aka custom properties) at the top of your stylesheet in the `:root` pseudo-element. These can then be referenced throughout the rest of the document by their variable name.

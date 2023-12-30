@@ -2,6 +2,7 @@
 layout: default
 title: CSS Nesting
 parent: CSS
+nav_order: 1
 ---
 # CSS Nesting
 Excerpted from MDN Web Docs ["Using CSS nesting"](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting):
