@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Style Guide
+nav_order: 1
 ---
 # IMS322 Style Guide
 Many companies, large and small (e.g. Google, Airbnb, and more), adopt style guides to ensure that everyone writes similar well-organized code. Sloppy or inconsistent code might still technically work, but it can be difficult to read, share, or debug.

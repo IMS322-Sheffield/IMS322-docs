@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Utilities
+nav_order: 5
 ---
 # Utilities
 ## Color
