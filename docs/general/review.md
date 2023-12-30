@@ -26,7 +26,7 @@ Excerpted from Kevin Powell's ["The Only Tags You Need to Know (for now)"](the-o
 The CSS Box Model describes how margin, border, padding, and content relate to each other in an HTML element.
 <div style="display: flex; justify-content: center;"> 
   <figure style="max-width: 500px;">
-	  <img src="images/CSS-Box-Model.webp" style="width: 100%;">
+	  <img src="docs/images/CSS-Box-Model.webp" style="width: 100%;">
   </figure>
 </div>
 ---

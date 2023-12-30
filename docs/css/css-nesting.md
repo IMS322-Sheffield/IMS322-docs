@@ -23,7 +23,7 @@ parent {
   }
 }
 ```
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="PoVMLGa" data-editable="true" data-user="ersheff" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="600" data-default-tab="html,result" data-slug-hash="PoVMLGa" data-editable="true" data-user="ersheff" style="height: 600px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/ersheff/pen/PoVMLGa">
   CSS Nesting (IMS322 Docs)</a> by Eric Sheffield (<a href="https://codepen.io/ersheff">@ersheff</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>

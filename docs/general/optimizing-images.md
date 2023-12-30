@@ -20,7 +20,7 @@ There are several different types of image compression suitable for the web. For
 
 ## Image Containers
 It is highly recommended to wrap all `<img>` elements in a parent `<div>` or, if captions are needed, `<figure>` element (with `<figcaption>` tags). This will generally make it easier to attain the desired size, position, and aspect ratio in flexible layouts. Additionally, while it might not suit every need, setting `max-width: 100%` and `max-height: 100vh` as the default properties for all images will probably work best for most situations.
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="KKEpJzp" data-editable="true" data-user="ersheff" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="600" data-default-tab="html,result" data-slug-hash="KKEpJzp" data-editable="true" data-user="ersheff" style="height: 600px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/ersheff/pen/KKEpJzp">
   Image Containers (IMS322 Docs)</a> by Eric Sheffield (<a href="https://codepen.io/ersheff">@ersheff</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
