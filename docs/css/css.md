@@ -2,6 +2,6 @@
 layout: default
 title: CSS
 has_children: "true"
-permalink: /docs/css
+permalink: docs/css
 ---
 # CSS
