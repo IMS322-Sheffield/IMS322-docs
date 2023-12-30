@@ -10,12 +10,12 @@ From [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/):
 > The main idea behind the flex layout is to give the container the ability to alter its items’ width/height (and order) to best fill the available space (mostly to accommodate to all kind of display devices and screen sizes). A flex container expands items to fill available free space or shrinks them to prevent overflow.
 
 <div style="display: flex; justify-content: space-evenly; gap: 1ch;">
-	<figure style="max-width: 350px">
+	<div style="flex: 1; max-width: 350px">
 		<img src="../images/01-container.svg" style="width: 100%">
-	</figure>
-	<figure style="max-width: 350px">
+	</div>
+	<div style="flex: 1; max-width: 350px">
 		<img src="../images/02-items.svg" style="width: 100%">
-	</figure>
+	</div>
 </div>
 The CSS Tricks article linked above is an excellent reference for all things flexbox. From that article, there are 7 key properties that can be used to accomplish most layout goals:
 - Container properties:
