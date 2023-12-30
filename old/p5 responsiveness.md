@@ -1,7 +1,3 @@
----
-layout: default
-title: Canvas Responsiveness
----
 # Canvas Responsiveness
 Making your P5 canvas responsive require a combination of:
 - [`windowWidth`](https://p5js.org/reference/#/p5/windowWidth) and [`windowHeight`](https://p5js.org/reference/#/p5/windowHeight) variables, which return the current dimensions of the browser window

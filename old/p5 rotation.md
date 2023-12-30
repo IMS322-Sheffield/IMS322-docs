@@ -1,7 +1,3 @@
----
-layout: default
-title: Rotation in P5
----
 # Rotation in P5
 Rotation (and translation) in P5 are a bit strange. Transformations are not applied to individual shapes, but rather on the *entire canvas.* This means that rotated shapes will generally be drawn in between the [`push()`](https://p5js.org/reference/#/p5/push) and [`pop()`](https://p5js.org/reference/#/p5/pop) methods.
 

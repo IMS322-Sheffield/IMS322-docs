@@ -1,8 +1,3 @@
----
-layout: default
-title: CSS Framework
-nav_order: 1
----
 # IMS322 CSS Mini-Framework
 A CSS framework (e.g. [Tailwind CSS](https://tailwindcss.com) or [Bulma](https://bulma.io)) is a collection of several stylesheets (`.css` files) with predefined styles for page layouts, inputs and controls, fonts, color palettes, navigation, and more.
 
