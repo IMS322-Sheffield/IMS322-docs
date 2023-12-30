@@ -1,7 +1,3 @@
----
-layout: default
-title: Timed Events
----
 # Timed Events
 There are often instances where your design requires something to occur at a regular interval rather than being driven by user interaction:
 - An autosave function that saves the user's work every 5 minutes

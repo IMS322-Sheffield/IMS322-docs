@@ -1,7 +1,3 @@
----
-layout: default
-title: Conditionals
----
 # Conditionals
 *Conditionals* give you the ability to make decisions in your code. Perhaps you want to change a visual theme based on the time of day, or display a "Game Over" screen when the player has run out of lives. You can do so using *if statements*.
 

@@ -1,7 +1,3 @@
----
-layout: default
-title: Arrays
----
 # Arrays
 Individual bits of data, whether number or strings, often gain more meaning when they are presented in context with other data. For example, the latitude of the Miami University campus is **39.508930578260085**. It would be very difficult to locate the campus using GPS coordinates without the corresponding longitude of **-84.73448077561027**. Similarly, if you want to discover [trends in enrollment at Miami University](https://miamioh.edu/oir/data/factbook/enrollment-undergraduate/index.html) you'll need to look at several years' worth of data simultaneously in order to get a clear picture.
 

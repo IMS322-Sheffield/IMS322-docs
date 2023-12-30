@@ -1,7 +1,3 @@
----
-layout: default
-title: DOM Manipulation 2
----
 # DOM Manipulation 2 - Style Properties
 The recommended way to change visual states is to use [class toggling](class toggle) with the `classToggle()` method. However, this really only works when alternating between 2 different states. What if you want to manage more than 2 states? Or what if you want continuously variable control of a style property?
 

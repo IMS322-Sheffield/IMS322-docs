@@ -1,7 +1,3 @@
----
-layout: default
-title: Variables
----
 # Variables
 A variable is a named container for data. The name of the container is up to you (take a look at naming guidelines in the [IMS322 Style Guide](style-guide.md)), but ideally it has some meaning that relates to the data being stored. To declare a variable, start with the keyword `let` and assign a starting value with `=`.
 

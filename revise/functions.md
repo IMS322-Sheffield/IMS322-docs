@@ -1,7 +1,3 @@
----
-layout: default
-title: Functions
----
 # Functions
 Functions are reusable blocks of code that are designed to perform a specific task or group of related tasks. You can accomplish a lot in JavaScript without writing your own functions, but they can help prevent writing repetitive code and will be required for some of the workflows in this class.
 

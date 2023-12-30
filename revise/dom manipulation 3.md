@@ -1,7 +1,3 @@
----
-layout: default
-title: DOM Manipulation 3
----
 # DOM Manipulation 3
 If you recall from a previous reading, the DOM (Document Object Model) is "the data representation of the objects that comprise the structure and content of a document on the web."
 

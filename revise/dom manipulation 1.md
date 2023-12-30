@@ -1,7 +1,3 @@
----
-layout: default
-title: DOM Manipulation 1
----
 # DOM Manipulation
 The Document Object Model, or *DOM*, is "the data representation of the objects that comprise the structure and content of a document on the web."
 

@@ -1,7 +1,3 @@
----
-layout: default
-title: Operators
----
 # Operators
 In previous examples, we have already used 2 operators that have fairly obvious functions: `+` for addition and `=` for assigning values, as seen in the expression:
 ```js

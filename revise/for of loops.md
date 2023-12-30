@@ -1,7 +1,3 @@
----
-layout: default
-title: For Of Loops
----
 # For Of Loops
 Arrays are an example of something that is an *iterable* - this means that we can *iterate* over all of the values of an array with a `for...of` loop.
 

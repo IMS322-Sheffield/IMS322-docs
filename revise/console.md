@@ -1,7 +1,3 @@
----
-layout: default
-title: Using the Console
----
 # Using the Console
 The console is part of the developer tools in your browser. Although anyone can open the developer tools, the console is generally invisible to users and is primarily used to display messages for developers. These messages might include errors logged due to problems with your code, but you can also manually log helpful messages using the `console.log()` method.
 

@@ -1,7 +1,3 @@
----
-layout: default
-title: Input Validation
----
 # Input Validation
 When using entry controls, it is a good idea to validate the input to ensure that it adheres to the desired format or range of valid answers. For example, a first or last name typically should not include numbers, dates in the mm/dd/yy format should not include letters, and required inputs should not be submitted empty.
 ## HTML Form Validation

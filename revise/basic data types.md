@@ -1,7 +1,3 @@
----
-layout: default
-title: Basic Data Types
----
 # Basic Data Types
 Values stored in [variables](variables.md) are always of a certain *type*. Being aware of these types is important when developing your code as they determine what you can do with that data.
 

@@ -1,7 +1,3 @@
----
-layout: default
-title: Objects
----
 # Objects
 We recently learned that [arrays](arrays.md) are useful for storing sequences of related data, such as GPS coordinates, enrollment figures, names of the months in a year, etc.
 

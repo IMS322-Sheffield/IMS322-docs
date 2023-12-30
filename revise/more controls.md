@@ -1,7 +1,3 @@
----
-layout: default
-title: More Controls
----
 # More Controls
 The simplest form of control or input type typically presented to the user is the button. It presents only a binary choice - to click or not to click. No other information or decision-making is required.
 

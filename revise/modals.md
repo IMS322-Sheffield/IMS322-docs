@@ -1,7 +1,3 @@
----
-layout: default
-title: Modals
----
 # Modals
 A modal is a pop-up that appears on top of the current page. It takes complete priority over the page, meaning that it prevents interaction with the underlying page until it is closed.
 

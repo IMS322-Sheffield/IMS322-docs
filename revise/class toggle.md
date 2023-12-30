@@ -1,7 +1,3 @@
----
-layout: default
-title: Class Toggle
----
 # Class Toggle
 Now that we can add event listeners to HTML elements, let's design a simple interaction that actually changes something on the page!
 

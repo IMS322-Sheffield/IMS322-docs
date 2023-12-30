@@ -1,7 +1,3 @@
----
-layout: default
-title: Event Listeners
----
 # Event Listeners
 An *event* is a signal that something has happened in the browser. There are several triggers for [events](https://developer.mozilla.org/en-US/docs/Web/Events), some that occur automatically (e.g. the *[load](https://developer.mozilla.org/en-US/docs/Web/API/Window/load_event)* event fires when the whole page has finished loading), and others that occur in response to an interaction from the user (e.g. the *[click](https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event)* event fires when the user clicks on a page element). In this class, we will primarily be focussed on the latter category.
 
