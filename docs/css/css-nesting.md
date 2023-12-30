@@ -10,7 +10,9 @@ Excerpted from MDN Web Docs ["Using CSS nesting"](https://developer.mozilla.org/
 
 > You can use CSS nesting to create child selectors of a parent, which in turn can be used to target child elements of specific parents.
 
-*Until recently, this required adding the [`&` nesting selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Nesting_selector) in front of the child selector. However, the most recent versions of all the common browsers have been updated to support nesting without the `&`, which makes it a little easier to write.*
+While nesting may not be appropriate for all situations, a notable benefit is that the structure more closely resembles the corresponding HTML - meaning that children inside parent elements can be styled with child selectors inside parent selectors. 
+
+*Previously, this required adding the [`&` nesting selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Nesting_selector) in front of the child selector. However, the most recent versions of all common browsers have been updated to support nesting without the `&`, which makes it a little easier to write.*
 
 ```css
 parent {
