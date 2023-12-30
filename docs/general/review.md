@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Review
+parent: General
 ---
 # Review
 Before we start working with JavaScript, this class assumes some familiarity with the HTML, CSS, and general web browser concepts below. We will review much of this content at the beginning of the semester.

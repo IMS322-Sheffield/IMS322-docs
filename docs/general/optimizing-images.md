@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Optimizing Images
+parent: General
 ---
 # Optimizing Images
 ## Image Resolution and Compression
