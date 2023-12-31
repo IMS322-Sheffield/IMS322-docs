@@ -36,11 +36,11 @@ Rename long or cryptic image files whenever necessary. For example, `dog.webp` i
 When working with multiple image files, put them all in an "images" folder to help keep the file browser organized. Keep in mind, this means that the `src` attribute of your `<img>` elements will needs to include the folder as part of the file name e.g. `images/dog.webp`.
 ### Media queries and display size targets
 Your project layouts will need to work well at the following window widths (based on [MDN Web Docs recommendations](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/CSS#mobile-first_media_queries)):
-- 480px (mobile)
-- 800px (tablet, narrow laptop/desktop windows)
-- 1100px (wide laptop/desktop windows)
+- `480px` (mobile)
+- `800px` (tablet, narrow laptop/desktop windows)
+- `1100px` (wide laptop/desktop windows)
 
-Media queries for `480px` and `800px` widths will be pre-configured for you in every project's `style.css` file to use as needed.
+Content in the `<body>` should not exceed the `1100px` maximum width, though background color extending outside that area is acceptable. Media queries for `480px` and `800px` widths will be pre-configured for you in every project's `style.css` file to use as needed.
 
 ---
 ## HTML
