@@ -5,7 +5,7 @@ nav_order: 5
 ---
 # Utilities
 ## Color
-- [Color picker](https://g.co/kgs/aUsQzS): Quick color reference and RGB/HEX converter.
+- [Color Picker](https://g.co/kgs/aUsQzS): Quick color reference and RGB/HEX converter.
 - [Mac Digital Color Meter](https://support.apple.com/en-ca/guide/digital-color-meter/welcome/mac): Mac application to find values for any onscreen color.
 - [Windows Color Picker utility](https://learn.microsoft.com/en-us/windows/powertoys/color-picker): Windows application to find values for any onscreen color.
 
