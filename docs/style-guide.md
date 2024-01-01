@@ -100,8 +100,6 @@ Recommended relative units:
 - `%` - Percentage relative to the parent element. 
 - `ch` - The width of the number "0" of the element's font.
 - `rem`	- Relative to the default browser font size.
-- `vw` - 1% of the viewport's (window) width.
-- `vh` - 1% of the viewport's (window) height.
 
 In some cases, you may still find that the absolute unit `px` is the best fit. Some examples:
 - If you want to ensure that a small image in a flexible container never stretches beyond its original resolution, set a `max-width` property in `px`.
