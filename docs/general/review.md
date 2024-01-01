@@ -22,7 +22,28 @@ Excerpted from Kevin Powell's ["The Only Tags You Need to Know (for now)"](the-o
 - `src`: path to image to be displayed for `<img>` tags
 
 ---
-## CSS Box Model
+## CSS
+
+### Common Properties
+- [background-color](https://developer.mozilla.org/en-US/docs/Web/CSS/background-color)
+- [border](https://developer.mozilla.org/en-US/docs/Web/CSS/border)
+- [color](https://developer.mozilla.org/en-US/docs/Web/CSS/color)
+- [font-family](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family)
+- [font-size](https://developer.mozilla.org/en-US/docs/Web/CSS/font-size)
+- [height](https://developer.mozilla.org/en-US/docs/Web/CSS/height)
+- [margin](https://developer.mozilla.org/en-US/docs/Web/CSS/margin)
+- [max-height](https://developer.mozilla.org/en-US/docs/Web/CSS/max-height)
+- [max-width](https://developer.mozilla.org/en-US/docs/Web/CSS/max-width)
+- [min-height](https://developer.mozilla.org/en-US/docs/Web/CSS/min-height)
+- [min-width](https://developer.mozilla.org/en-US/docs/Web/CSS/min-width)
+- [opacity](https://developer.mozilla.org/en-US/docs/Web/CSS/opacity)
+- [padding](https://developer.mozilla.org/en-US/docs/Web/CSS/padding)
+- [text-align](https://developer.mozilla.org/en-US/docs/Web/CSS/text-align)
+- [transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)
+- [width](https://developer.mozilla.org/en-US/docs/Web/CSS/width)
+
+A comprehensive reference for all CSS properties can be found on [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference). 
+### CSS Box Model
 The CSS Box Model describes how margin, border, padding, and content relate to each other in an HTML element.
 <div style="display: flex; justify-content: center;"> 
   <figure style="max-width: 500px;">
