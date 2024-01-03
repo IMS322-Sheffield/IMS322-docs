@@ -117,18 +117,18 @@ Use element and class selectors.
 #### This:
 ```css
 h2 {
-  color: blue;
+  color: #0000FF;
 }
 
 .important-text {
-  color: red;
+  color: #FF0000;
   font-weight: bold;
 }
 ```
 #### Not this:
 ```css
 #important-text {
-  color: red;
+  color: #FF0000;
   font-weight: bold;
 }
 ```
