@@ -38,7 +38,7 @@ makeSauce();
 ```
 
 Try changing the JavaScript below - remember, you'll need to open the console in order to see the results.
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="oNVvYBv" data-editable="true" data-user="ersheff" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="300" data-default-tab="js" data-slug-hash="oNVvYBv" data-editable="true" data-user="ersheff" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/ersheff/pen/oNVvYBv">
   Function Declaration (IMS322 Docs)</a> by Eric Sheffield (<a href="https://codepen.io/ersheff">@ersheff</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
