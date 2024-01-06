@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Additional Resources
-nav_order: 6
+nav_order: 7
 ---
 # Additional Resources
 If you are interested in additional help, review, or inspiration, you may find the links below to be useful.
