@@ -29,7 +29,7 @@ element.style.setProperty(propertyName, value);
 ```
 The `propertyName` argument can be any familiar CSS styling property formatted as a string, like `"background-color"` or `"font-size"`. For `value`, you will usually need to use string concatenation to append units e.g. add `"px"` or `"rem"` to the end of a number.
 
-In the example below, the `translate` property is used to randomly move the text every second, while `rotate` is used to spin the bar. Notice how `"px"` and `"deg"` are concatenated to the variables in JavaScript.
+The `shift` function is called every second to randomly move the text by changing the `translate` property, while the `spin` function is called every 10ms to continuously rotate the bar. Notice how `"px"` and `"deg"` are concatenated to the variables in JavaScript before they are passed as arguments to `setProperty()`.
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="KKEPNoe" data-editable="true" data-user="ersheff" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/ersheff/pen/KKEPNoe">
   setInterval with setProperty (IMS322 Docs)</a> by Eric Sheffield (<a href="https://codepen.io/ersheff">@ersheff</a>)
