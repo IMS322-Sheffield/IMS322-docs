@@ -31,7 +31,7 @@ primaryButton.addEventListener("click", toggleState);
 ```
 
 ## Getting Started with Properties
-### `innerText`
+### innerText
 To change the text displayed in an HTML element from JavaScript, assign the `innerText` property to the desired value:
 ```js
 element.innerText = "Hello!";
